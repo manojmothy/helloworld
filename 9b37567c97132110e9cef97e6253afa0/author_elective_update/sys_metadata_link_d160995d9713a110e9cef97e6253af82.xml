@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="DELETE">
+        <directory>update</directory>
+        <documentkey>2daebbb02dae4b302dae91402dae3aa0</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_worktask_product_model">
+    <cmdb_worktask_product_model action="INSERT_OR_UPDATE">
+        <acquisition_method/>
+        <asset_tracking_strategy>leave_to_category</asset_tracking_strategy>
+        <asset_tracking_unit display_value="Individual Unit">51a74add0f233300fee7579ac4767e59</asset_tracking_unit>
+        <assignment_group/>
+        <barcode/>
+        <bundle>false</bundle>
+        <certified>false</certified>
+        <checklist_template/>
+        <cmdb_ci_class/>
+        <cmdb_model_category>98b44470d7311100158ba6859e610353</cmdb_model_category>
+        <comments/>
+        <current/>
+        <current_unit/>
+        <depreciation/>
+        <depth/>
+        <description/>
+        <dimensions_unit/>
+        <dispatch_group display_value="Qualifier-Dispatch Grp Kamloops" name="Qualifier-Dispatch Grp Kamloops">a7c6e2fc97d32110e9cef97e6253af4b</dispatch_group>
+        <display_name>1 Check Parts availability and Troubleshoot issue</display_name>
+        <energy_star>false</energy_star>
+        <energy_use/>
+        <expected_lifetime_co2e/>
+        <expenditure_type/>
+        <flow_rate/>
+        <full_name/>
+        <height/>
+        <is_migrated>true</is_migrated>
+        <length/>
+        <life_cycle_stage/>
+        <life_cycle_stage_status/>
+        <main_component/>
+        <manufacturer/>
+        <model_number/>
+        <name>1 Check Parts availability and Troubleshoot issue</name>
+        <owner/>
+        <picture/>
+        <power_consumption/>
+        <power_unit/>
+        <product_catalog_item/>
+        <rack_units>1</rack_units>
+        <rated_power/>
+        <short_description>1 Check Parts availability and Troubleshoot issue</short_description>
+        <sla/>
+        <sound_power/>
+        <status>In Production</status>
+        <sys_class_name>cmdb_worktask_product_model</sys_class_name>
+        <sys_created_by>Madhuri.Annambhotla</sys_created_by>
+        <sys_created_on>2023-06-07 04:33:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>2daebbb02dae4b302dae91402dae3aa0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
+        <sys_updated_on>2023-06-07 04:33:06</sys_updated_on>
+        <task_description>Check Parts availability and Troubleshoot issue</task_description>
+        <task_estimated_duration/>
+        <task_skills/>
+        <type>Generic</type>
+        <unit_of_measure_system/>
+        <voltage/>
+        <voltage_unit/>
+        <volume/>
+        <volume_unit/>
+        <weight/>
+        <weight_decimal/>
+        <weight_unit/>
+        <width/>
+        <work_type display_value="Break Fix">38f719ec3b8a10103f09080044efc4cd</work_type>
+    </cmdb_worktask_product_model>
+    <fx_price action="delete_multiple" query="id=2daebbb02dae4b302dae91402dae3aa0"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=2daebbb02dae4b302dae91402dae3aa0"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>Madhuri.Annambhotla</sys_created_by>
+        <sys_created_on>2023-06-07 04:33:06</sys_created_on>
+        <sys_id>d160995d9713a110e9cef97e6253af82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1 Check Parts availability and Troubleshoot issue</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>sys_metadata_link_d160995d9713a110e9cef97e6253af82</sys_update_name>
+        <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
+        <sys_updated_on>2023-06-07 04:33:06</sys_updated_on>
+        <tablename>cmdb_worktask_product_model</tablename>
+    </sys_metadata_link>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</application>
+        <file_path/>
+        <instance_id>7a35ee16db281b80439ef70fbf9619fa</instance_id>
+        <instance_name>dev51222</instance_name>
+        <name>sys_metadata_link_d160995d9713a110e9cef97e6253af82</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_metadata_link"&gt;&lt;sys_metadata_link action="INSERT_OR_UPDATE"&gt;&lt;directory&gt;update&lt;/directory&gt;&lt;documentkey&gt;2daebbb02dae4b302dae91402dae3aa0&lt;/documentkey&gt;&lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="cmdb_worktask_product_model"&gt;
+    &lt;cmdb_worktask_product_model action="INSERT_OR_UPDATE"&gt;
+        &lt;acquisition_method/&gt;
+        &lt;asset_tracking_strategy&gt;leave_to_category&lt;/asset_tracking_strategy&gt;
+        &lt;asset_tracking_unit display_value="Individual Unit"&gt;51a74add0f233300fee7579ac4767e59&lt;/asset_tracking_unit&gt;
+        &lt;assignment_group/&gt;
+        &lt;barcode/&gt;
+        &lt;bundle&gt;false&lt;/bundle&gt;
+        &lt;certified&gt;false&lt;/certified&gt;
+        &lt;checklist_template/&gt;
+        &lt;cmdb_ci_class/&gt;
+        &lt;cmdb_model_category&gt;98b44470d7311100158ba6859e610353&lt;/cmdb_model_category&gt;
+        &lt;comments/&gt;
+        &lt;current/&gt;
+        &lt;current_unit/&gt;
+        &lt;depreciation/&gt;
+        &lt;depth/&gt;
+        &lt;description/&gt;
+        &lt;dimensions_unit/&gt;
+        &lt;dispatch_group display_value="Qualifier-Dispatch Grp Kamloops" name="Qualifier-Dispatch Grp Kamloops"&gt;a7c6e2fc97d32110e9cef97e6253af4b&lt;/dispatch_group&gt;
+        &lt;display_name&gt;1 Check Parts availability and Troubleshoot issue&lt;/display_name&gt;
+        &lt;energy_star&gt;false&lt;/energy_star&gt;
+        &lt;energy_use/&gt;
+        &lt;expected_lifetime_co2e/&gt;
+        &lt;expenditure_type/&gt;
+        &lt;flow_rate/&gt;
+        &lt;full_name/&gt;
+        &lt;height/&gt;
+        &lt;is_migrated&gt;true&lt;/is_migrated&gt;
+        &lt;length/&gt;
+        &lt;life_cycle_stage/&gt;
+        &lt;life_cycle_stage_status/&gt;
+        &lt;main_component/&gt;
+        &lt;manufacturer/&gt;
+        &lt;model_number/&gt;
+        &lt;name&gt;1 Check Parts availability and Troubleshoot issue&lt;/name&gt;
+        &lt;owner/&gt;
+        &lt;picture/&gt;
+        &lt;power_consumption/&gt;
+        &lt;power_unit/&gt;
+        &lt;product_catalog_item/&gt;
+        &lt;rack_units&gt;1&lt;/rack_units&gt;
+        &lt;rated_power/&gt;
+        &lt;short_description&gt;1 Check Parts availability and Troubleshoot issue&lt;/short_description&gt;
+        &lt;sla/&gt;
+        &lt;sound_power/&gt;
+        &lt;status&gt;In Production&lt;/status&gt;
+        &lt;sys_class_name&gt;cmdb_worktask_product_model&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;Madhuri.Annambhotla&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-06-07 04:33:06&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path/&gt;
+        &lt;sys_id&gt;2daebbb02dae4b302dae91402dae3aa0&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;Madhuri.Annambhotla&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-06-07 04:33:06&lt;/sys_updated_on&gt;
+        &lt;task_description&gt;Check Parts availability and Troubleshoot issue&lt;/task_description&gt;
+        &lt;task_estimated_duration/&gt;
+        &lt;task_skills/&gt;
+        &lt;type&gt;Generic&lt;/type&gt;
+        &lt;unit_of_measure_system/&gt;
+        &lt;voltage/&gt;
+        &lt;voltage_unit/&gt;
+        &lt;volume/&gt;
+        &lt;volume_unit/&gt;
+        &lt;weight/&gt;
+        &lt;weight_decimal/&gt;
+        &lt;weight_unit/&gt;
+        &lt;width/&gt;
+        &lt;work_type display_value="Break Fix"&gt;38f719ec3b8a10103f09080044efc4cd&lt;/work_type&gt;
+    &lt;/cmdb_worktask_product_model&gt;
+    &lt;fx_price action="delete_multiple" query="id=2daebbb02dae4b302dae91402dae3aa0"/&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=2daebbb02dae4b302dae91402dae3aa0"/&gt;
+&lt;/record_update&gt;
+]]&gt;&lt;/payload&gt;&lt;sys_class_name&gt;sys_metadata_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Madhuri.Annambhotla&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-07 04:33:06&lt;/sys_created_on&gt;&lt;sys_id&gt;d160995d9713a110e9cef97e6253af82&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;1 Check Parts availability and Troubleshoot issue&lt;/sys_name&gt;&lt;sys_package display_value="SWU Device Service" source="x_1070080_swu_dev"&gt;9b37567c97132110e9cef97e6253afa0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SWU Device Service"&gt;9b37567c97132110e9cef97e6253afa0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_metadata_link_d160995d9713a110e9cef97e6253af82&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Madhuri.Annambhotla&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-07 04:33:06&lt;/sys_updated_on&gt;&lt;tablename&gt;cmdb_worktask_product_model&lt;/tablename&gt;&lt;/sys_metadata_link&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>888857096</payload_hash>
+        <record_name>1 Check Parts availability and Troubleshoot issue</record_name>
+        <reverted_from/>
+        <source>5337567c97132110e9cef97e6253afa2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Madhuri.Annambhotla</sys_created_by>
+        <sys_created_on>2023-06-07 04:33:06</sys_created_on>
+        <sys_id>9960995d9713a110e9cef97e6253af83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18894213d120000001</sys_recorded_at>
+        <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
+        <sys_updated_on>2023-06-07 04:33:06</sys_updated_on>
+        <type>Metadata Snapshot</type>
+        <update_guid>d160995d4713a11047b3a6d30cae1d83</update_guid>
+        <update_guid_history>d160995d4713a11047b3a6d30cae1d83:888857096</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Madhuri.Annambhotla</sys_created_by>
+        <sys_created_on>2023-06-07 04:33:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_metadata_link">sys_metadata_link</sys_db_object>
+        <sys_id>0776cb62929149bfa7987d327c25bdf1</sys_id>
+        <sys_metadata>d160995d9713a110e9cef97e6253af82</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1 Check Parts availability and Troubleshoot issue</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_scope_delete display_value="">e895e98e39c947c49d0799fdb82be490</sys_scope_delete>
+        <sys_update_name>sys_metadata_link_d160995d9713a110e9cef97e6253af82</sys_update_name>
+        <sys_update_version display_value="sys_metadata_link_d160995d9713a110e9cef97e6253af82">9960995d9713a110e9cef97e6253af83</sys_update_version>
+        <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
+        <sys_updated_on>2023-06-07 04:33:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

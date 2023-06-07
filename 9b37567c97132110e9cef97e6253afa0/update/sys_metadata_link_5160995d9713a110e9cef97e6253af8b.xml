@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>76c75b1076c7764076c7c89076c7a470</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_worktask_product_model">
+    <cmdb_worktask_product_model action="INSERT_OR_UPDATE">
+        <acquisition_method/>
+        <asset_tracking_strategy>leave_to_category</asset_tracking_strategy>
+        <asset_tracking_unit display_value="Individual Unit">51a74add0f233300fee7579ac4767e59</asset_tracking_unit>
+        <assignment_group/>
+        <barcode/>
+        <bundle>false</bundle>
+        <certified>false</certified>
+        <checklist_template/>
+        <cmdb_ci_class/>
+        <cmdb_model_category>98b44470d7311100158ba6859e610353</cmdb_model_category>
+        <comments/>
+        <current/>
+        <current_unit/>
+        <depreciation/>
+        <depth/>
+        <description/>
+        <dimensions_unit/>
+        <dispatch_group display_value="Qualifier-Dispatch Grp Kamloops" name="Qualifier-Dispatch Grp Kamloops">a7c6e2fc97d32110e9cef97e6253af4b</dispatch_group>
+        <display_name>2 Place an order for the required part/ device and request a loaner laptop</display_name>
+        <energy_star>false</energy_star>
+        <energy_use/>
+        <expected_lifetime_co2e/>
+        <expenditure_type/>
+        <flow_rate/>
+        <full_name/>
+        <height/>
+        <is_migrated>true</is_migrated>
+        <length/>
+        <life_cycle_stage/>
+        <life_cycle_stage_status/>
+        <main_component/>
+        <manufacturer/>
+        <model_number/>
+        <name>2 Place an order for the required part/ device and request a loaner laptop</name>
+        <owner/>
+        <picture/>
+        <power_consumption/>
+        <power_unit/>
+        <product_catalog_item/>
+        <rack_units>1</rack_units>
+        <rated_power/>
+        <short_description>2 Place an order for the required part/ device and request a loaner laptop</short_description>
+        <sla/>
+        <sound_power/>
+        <status>In Production</status>
+        <sys_class_name>cmdb_worktask_product_model</sys_class_name>
+        <sys_created_by>Madhuri.Annambhotla</sys_created_by>
+        <sys_created_on>2023-06-07 04:33:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>76c75b1076c7764076c7c89076c7a470</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
+        <sys_updated_on>2023-06-07 05:45:50</sys_updated_on>
+        <task_description>2 Place an order for the required part/ device and request a loaner laptop
+
+Reserve an Asset for the user along with a loaner Asset - links to Catalog items
+Close this task after creating the two Requests</task_description>
+        <task_estimated_duration/>
+        <task_skills/>
+        <type>Generic</type>
+        <unit_of_measure_system/>
+        <voltage/>
+        <voltage_unit/>
+        <volume/>
+        <volume_unit/>
+        <weight/>
+        <weight_decimal/>
+        <weight_unit/>
+        <width/>
+        <work_type display_value="Break Fix">38f719ec3b8a10103f09080044efc4cd</work_type>
+    </cmdb_worktask_product_model>
+    <fx_price action="delete_multiple" query="id=76c75b1076c7764076c7c89076c7a470"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=76c75b1076c7764076c7c89076c7a470"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>Madhuri.Annambhotla</sys_created_by>
+        <sys_created_on>2023-06-07 04:33:06</sys_created_on>
+        <sys_id>5160995d9713a110e9cef97e6253af8b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>2 Place an order for the required part/ device and request a loaner laptop</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>sys_metadata_link_5160995d9713a110e9cef97e6253af8b</sys_update_name>
+        <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
+        <sys_updated_on>2023-06-07 05:45:51</sys_updated_on>
+        <tablename>cmdb_worktask_product_model</tablename>
+    </sys_metadata_link>
+</record_update>

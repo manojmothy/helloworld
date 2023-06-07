@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1070080_swu_dev.WorkManagementInitiation</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Links to a newly created work order that transfers any relevant information.</description>
+        <name>WorkManagementInitiation</name>
+        <script><![CDATA[var WorkManagementInitiation = Class.create();
+WorkManagementInitiation.prototype = {
+	initialize: function() {
+	},
+	
+	checkIfWorkOrderExists: function(caller){
+		var gr = new GlideRecord("wm_order");
+		gr.addQuery('initiated_from', caller.sys_id);
+		gr.addEncodedQuery('stateNOT IN' + SMConstants.ORDER_CLOSED_COMPLETE + ',' + SMConstants.ORDER_CLOSED_INCOMPLETE + ',' + SMConstants.ORDER_CANCELLED);
+		gr.query();
+		if(gr.hasNext())
+			return true;
+		return false;
+	},
+	
+	checkIfWorkOrderExistsAndReturn: function(caller){
+		var gr = new GlideRecord("wm_order");
+		gr.addQuery('initiated_from', caller.sys_id);
+		gr.addEncodedQuery('stateNOT IN' + SMConstants.ORDER_CLOSED_COMPLETE + ',' + SMConstants.ORDER_CLOSED_INCOMPLETE + ',' + SMConstants.ORDER_CANCELLED);
+		gr.query();
+		if(gr.hasNext()){
+			gr.next();
+			return gr;
+		}
+			
+		return false;
+	},
+	
+	getAllWOForCaller : function(caller){
+		var gr = new GlideRecord("wm_order");
+		gr.addQuery('initiated_from', caller.sys_id);
+		//gr.addEncodedQuery('stateNOT IN' + SMConstants.ORDER_CLOSED_COMPLETE + ',' + SMConstants.ORDER_CLOSED_INCOMPLETE + ',' + SMConstants.ORDER_CANCELLED);
+		gr.query();
+		return gr;
+	},
+	
+	retrieveWorkOrder: function(shouldCheck, task){
+		this._retrieveWorkOrder(shouldCheck, task, false);
+	},
+	
+	createWorkOrderFromIncident: function(incident) {
+		var workOrder = this._retrieveWorkOrder(true, incident, true);
+		
+		// work order already exists and redirection is already handled
+		if (workOrder == null)
+			return;
+		
+		// complete the work order definition and creation
+		workOrder.location = incident.location;
+		workOrder.caller = incident.caller_id;
+		workOrder.description = incident.description;
+		workOrder.asset = incident.u_asset;
+		workOrder.insert();
+		
+		// redirect to new work order
+		this._redirectToNewWorkOrder(workOrder, incident);
+		return workOrder;
+	},
+	
+	createWorkOrderFromProblem: function(problem) {
+		var workOrder = this._retrieveWorkOrder(true, problem, true);
+		
+		// work order already exists and redirection is already handled
+		if (workOrder == null)
+			return;
+		
+		workOrder.caller = problem.opened_by;
+		workOrder.description = problem.description;
+		workOrder.insert();
+		
+		// redirect to new work order
+		this._redirectToNewWorkOrder(workOrder, problem);
+		return workOrder;
+	},
+	
+	createWorkOrderFromChange: function(change) {
+		var workOrder = this._retrieveWorkOrder(true, change, true);
+		
+		// work order already exists and redirection is already handled
+		if(workOrder == null)
+			return;
+		
+		workOrder.insert();
+		
+		// redirect to new work order
+		this._redirectToNewWorkOrder(workOrder, change);
+		return workOrder;
+	},
+	
+	createWorkOrderFromWorkOrder: function(oldWorkOrder) {
+		var workOrder = this._retrieveWorkOrder(false, oldWorkOrder, true);
+		
+		// work order already exists and redirection is already handled
+		if(workOrder == null)
+			return;
+		
+		workOrder.location = oldWorkOrder.location;
+		workOrder.caller = oldWorkOrder.caller;
+		workOrder.company = oldWorkOrder.company;
+		if(oldWorkOrder.template)
+			workOrder.template = oldWorkOrder.template;
+		workOrder.insert();
+		
+		// redirect to new work order
+		this._redirectToNewWorkOrder(workOrder, oldWorkOrder);
+		return workOrder;
+	},
+	
+	createWorkOrderFromProjectTask : function(projectTask) {
+		if(projectTask.rollup)
+		{
+			gs.addInfoMessage(gs.getMessage("Work Order cannot be created for rollup task {0}", projectTask.number));
+			action.setRedirectURL(projectTask);
+			action.setReturnURL(projectTask);
+			return;
+		}
+		var workOrder = this._retrieveWorkOrder(true, projectTask, true);
+		
+		// work order already exists and redirection is already handled
+		if (workOrder == null)
+			return;
+		
+		workOrder.caller = projectTask.assigned_to;
+		workOrder.description = projectTask.description;
+		workOrder.location = projectTask.location;
+		if (GlidePluginManager.isActive("com.snc.csm_ppm")) {
+			var projectTaskAccount = (projectTask.parent.getRefRecord()).account;
+			if (projectTaskAccount && GlidePluginManager.isActive("com.snc.csm_fsm_integration"))
+				workOrder.account = projectTaskAccount;
+    		}
+		workOrder.insert();
+		// redirect to new work order
+		this._redirectToNewWorkOrder(workOrder, projectTask);
+		
+		return workOrder;
+	},
+	
+	createWorkOrderFromCase: function(cscase) {
+		var workOrder = this._retrieveWorkOrder(true, cscase, true);
+		
+		// work order already exists and redirection is already handled
+		if (workOrder == null)
+			return;
+		
+		// complete the work order definition and creation
+		//workOrder.location = cscase.location;
+		if(workOrder.isValidField('account') && workOrder.isValidField('contact')){
+			if(!gs.nil(cscase.account)){
+				workOrder.contact = cscase.contact;
+				workOrder.account = cscase.account;
+			}else{
+				workOrder.consumer = cscase.consumer;
+			}
+			workOrder.partner = cscase.partner;
+			workOrder.partner_contact = cscase.partner_contact;
+		}else{
+			workOrder.caller = cscase.contact;
+			workOrder.company = cscase.account;
+		}
+		workOrder.description = cscase.description;
+		workOrder.priority = cscase.priority;
+
+		var location = '';
+
+		if (workOrder.isValidField('install_base_item')) {
+			var installBaseItemGR = (new FSMInstallBaseUtil()).getSingleInstallBaseItemFromCase(cscase.sys_id);
+
+			if (!gs.nil(installBaseItemGR)) {
+				workOrder.install_base_item = installBaseItemGR.sys_id;
+
+				if (!gs.nil(installBaseItemGR.configuration_item)) {
+					location = installBaseItemGR.configuration_item.location;
+				}
+			}
+		}
+
+		if (gs.nil(workOrder.install_base_item) && !gs.nil(cscase.asset)){
+			workOrder.asset = cscase.asset;
+			workOrder.cmdb_ci = cscase.asset.ci;
+			location = cscase.asset.location;
+		}
+
+		if(gs.nil(location) && !gs.nil(cscase.contact)){
+			location = cscase.contact.location;
+		}
+		
+		workOrder.location = location;
+		workOrder.insert();
+		
+		// redirect to new work order
+		//this._redirectToNewWorkOrder(workOrder, cscase);
+		return workOrder;
+	},
+	
+	/*
+ 	* Check for prior existence of a work order for this itil task or create a shell of one if none
+ 	* Actual work order insert is the responsibility of caller so that they get a chance to populate non shared fields
+ 	* Returns null if work order already exists (and redirects), returns non-inserted work order if new one required
+ 	*/
+	_retrieveWorkOrder: function(shouldCheck, itilTask, display) {
+		if(shouldCheck && this._checkCreatedWorkOrder(itilTask, display))
+			return null;
+		
+		var workOrder = new GlideRecord("wm_order");
+		
+		workOrder.short_description = itilTask.short_description;
+		workOrder.description = itilTask.description;
+		workOrder.priority = itilTask.priority;
+		workOrder.state = SMConstants.ORDER_DRAFT;
+		workOrder.cmdb_ci = itilTask.cmdb_ci;
+		workOrder.initiated_from = itilTask.sys_id;
+
+		if (itilTask.isValidField("company"))
+			workOrder.company = itilTask.company;
+			
+		return workOrder;
+	},
+	
+	_redirectToNewWorkOrder: function(workOrder, previousItilTask) {
+		gs.addInfoMessage(gs.getMessage("Work Order created for {0}", previousItilTask.number));
+		try{
+			action.setRedirectURL(workOrder);
+			action.setReturnURL(previousItilTask);
+		}catch(ex){
+			gs.info("action is not defined")
+		}
+	},
+	
+	_checkCreatedWorkOrder: function(task, display) {
+		var gr = new GlideRecord("wm_order");
+		gr.addQuery('initiated_from', task.sys_id);
+		gr.addEncodedQuery('stateNOT IN' + SMConstants.ORDER_CLOSED_COMPLETE + ',' + SMConstants.ORDER_CLOSED_INCOMPLETE + ',' + SMConstants.ORDER_CANCELLED);
+		gr.query();
+		if(gr.next()) {
+			if (display)
+				gs.addInfoMessage(gs.getMessage("Viewing the work order that was created for {0}", task.number));
+			try{
+			    action.setRedirectURL(gr);
+			    action.setReturnURL(task);
+			}catch(ex){
+				gs.info("action is not defined");
+			}
+			return true;
+		}
+		return false;
+	},
+		_checkCreatedWorkOrderNoneRedirect: function(task) {
+		var gr = new GlideRecord("wm_order");
+		gr.addQuery('initiated_from', task.sys_id);
+		gr.addEncodedQuery('stateNOT IN' + SMConstants.ORDER_CLOSED_COMPLETE + ',' + SMConstants.ORDER_CLOSED_INCOMPLETE + ',' + SMConstants.ORDER_CANCELLED);
+		gr.query();
+		if(gr.next()) {
+			gs.log(gr.number);
+			return true;
+		}
+		return false;
+	},
+	
+	type: 'WorkManagementInitiation'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-07 17:33:47</sys_created_on>
+        <sys_id>591304a9971fa110e9cef97e6253afa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WorkManagementInitiation</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>sys_script_include_591304a9971fa110e9cef97e6253afa7</sys_update_name>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-07 17:33:47</sys_updated_on>
+    </sys_script_include>
+</record_update>

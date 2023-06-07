@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="DELETE">
+        <directory>update</directory>
+        <documentkey>968f0d1d9713a110e9cef97e6253af4d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sm_m2m_somodel_stmodel">
+    <sm_m2m_somodel_stmodel action="INSERT_OR_UPDATE">
+        <filter_condition/>
+        <order>0</order>
+        <so_model display_value="Work Order - Template Kamloops">a2fe1ac597176110e9cef97e6253af91</so_model>
+        <st_model display_value="1 Check Parts availability and Troubleshoot issue">2daebbb02dae4b302dae91402dae3aa0</st_model>
+        <sys_created_by>Madhuri.Annambhotla</sys_created_by>
+        <sys_created_on>2023-06-07 04:29:21</sys_created_on>
+        <sys_id>968f0d1d9713a110e9cef97e6253af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
+        <sys_updated_on>2023-06-07 04:29:21</sys_updated_on>
+        <table/>
+    </sm_m2m_somodel_stmodel>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>Madhuri.Annambhotla</sys_created_by>
+        <sys_created_on>2023-06-07 04:29:21</sys_created_on>
+        <sys_id>da8f0d1d9713a110e9cef97e6253af4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2023-06-06 21:29:21</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>sys_metadata_link_da8f0d1d9713a110e9cef97e6253af4f</sys_update_name>
+        <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
+        <sys_updated_on>2023-06-07 04:29:21</sys_updated_on>
+        <tablename>sm_m2m_somodel_stmodel</tablename>
+    </sys_metadata_link>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</application>
+        <file_path/>
+        <instance_id>7a35ee16db281b80439ef70fbf9619fa</instance_id>
+        <instance_name>dev51222</instance_name>
+        <name>sys_metadata_link_da8f0d1d9713a110e9cef97e6253af4f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_metadata_link"&gt;&lt;sys_metadata_link action="INSERT_OR_UPDATE"&gt;&lt;directory&gt;update&lt;/directory&gt;&lt;documentkey&gt;968f0d1d9713a110e9cef97e6253af4d&lt;/documentkey&gt;&lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sm_m2m_somodel_stmodel"&gt;
+    &lt;sm_m2m_somodel_stmodel action="INSERT_OR_UPDATE"&gt;
+        &lt;filter_condition/&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;so_model display_value="Work Order - Template Kamloops"&gt;a2fe1ac597176110e9cef97e6253af91&lt;/so_model&gt;
+        &lt;st_model display_value="1 Check Parts availability and Troubleshoot issue"&gt;2daebbb02dae4b302dae91402dae3aa0&lt;/st_model&gt;
+        &lt;sys_created_by&gt;Madhuri.Annambhotla&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-06-07 04:29:21&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;968f0d1d9713a110e9cef97e6253af4d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;Madhuri.Annambhotla&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-06-07 04:29:21&lt;/sys_updated_on&gt;
+        &lt;table/&gt;
+    &lt;/sm_m2m_somodel_stmodel&gt;
+&lt;/record_update&gt;
+]]&gt;&lt;/payload&gt;&lt;sys_class_name&gt;sys_metadata_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Madhuri.Annambhotla&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-07 04:29:21&lt;/sys_created_on&gt;&lt;sys_id&gt;da8f0d1d9713a110e9cef97e6253af4f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Created 2023-06-06 21:29:21&lt;/sys_name&gt;&lt;sys_package display_value="SWU Device Service" source="x_1070080_swu_dev"&gt;9b37567c97132110e9cef97e6253afa0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SWU Device Service"&gt;9b37567c97132110e9cef97e6253afa0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_metadata_link_da8f0d1d9713a110e9cef97e6253af4f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Madhuri.Annambhotla&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-07 04:29:21&lt;/sys_updated_on&gt;&lt;tablename&gt;sm_m2m_somodel_stmodel&lt;/tablename&gt;&lt;/sys_metadata_link&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-662897601</payload_hash>
+        <record_name>Created 2023-06-06 21:29:21</record_name>
+        <reverted_from/>
+        <source>5337567c97132110e9cef97e6253afa2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Madhuri.Annambhotla</sys_created_by>
+        <sys_created_on>2023-06-07 04:29:21</sys_created_on>
+        <sys_id>928f0d1d9713a110e9cef97e6253af51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188941dcf760000001</sys_recorded_at>
+        <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
+        <sys_updated_on>2023-06-07 04:29:21</sys_updated_on>
+        <type>Metadata Snapshot</type>
+        <update_guid>da8f0d1d9913a110f966ff85c85a6950</update_guid>
+        <update_guid_history>da8f0d1d9913a110f966ff85c85a6950:-662897601</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Madhuri.Annambhotla</sys_created_by>
+        <sys_created_on>2023-06-07 04:33:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_metadata_link">sys_metadata_link</sys_db_object>
+        <sys_id>9b86e1da90e746a0ad17d18260738400</sys_id>
+        <sys_metadata>da8f0d1d9713a110e9cef97e6253af4f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2023-06-06 21:29:21</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_scope_delete display_value="">e895e98e39c947c49d0799fdb82be490</sys_scope_delete>
+        <sys_update_name>sys_metadata_link_da8f0d1d9713a110e9cef97e6253af4f</sys_update_name>
+        <sys_update_version display_value="sys_metadata_link_da8f0d1d9713a110e9cef97e6253af4f">928f0d1d9713a110e9cef97e6253af51</sys_update_version>
+        <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
+        <sys_updated_on>2023-06-07 04:33:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="csm_field_map">
+    <csm_field_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <order>100</order>
+        <source_field>short_description</source_field>
+        <sys_class_name>csm_field_map</sys_class_name>
+        <sys_created_by>Madhuri.Annambhotla</sys_created_by>
+        <sys_created_on>2023-06-07 03:28:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f891c19d97df6110e9cef97e6253af47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>short_description</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>csm_field_map_f891c19d97df6110e9cef97e6253af47</sys_update_name>
+        <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
+        <sys_updated_on>2023-06-07 03:28:37</sys_updated_on>
+        <table_map display_value="Incident-WorkOrder Mapping">3b304d1d97df6110e9cef97e6253af86</table_map>
+        <target_field>short_description</target_field>
+        <transform_script><![CDATA[(function (source) {
+	
+	// Add your code here
+	// return value or set variable 'answer' to populate selected target field
+	
+	return '';
+	
+})(source);]]></transform_script>
+    </csm_field_map>
+</record_update>

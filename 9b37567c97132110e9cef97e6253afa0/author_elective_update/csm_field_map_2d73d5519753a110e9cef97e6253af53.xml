@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="csm_field_map">
+    <csm_field_map action="DELETE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <order>100</order>
+        <source_field>asset.display_name</source_field>
+        <sys_class_name>csm_field_map</sys_class_name>
+        <sys_created_by>Madhuri.Annambhotla</sys_created_by>
+        <sys_created_on>2023-06-07 04:46:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2d73d5519753a110e9cef97e6253af53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>asset</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>csm_field_map_2d73d5519753a110e9cef97e6253af53</sys_update_name>
+        <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
+        <sys_updated_on>2023-06-07 04:46:53</sys_updated_on>
+        <table_map display_value="WO-WOT mapping">034359119753a110e9cef97e6253af8b</table_map>
+        <target_field>asset</target_field>
+        <transform_script><![CDATA[(function (source) {
+	
+	// Add your code here
+	// return value or set variable 'answer' to populate selected target field
+	
+	return '';
+	
+})(source);]]></transform_script>
+    </csm_field_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</application>
+        <file_path/>
+        <instance_id>7a35ee16db281b80439ef70fbf9619fa</instance_id>
+        <instance_name>dev51222</instance_name>
+        <name>csm_field_map_2d73d5519753a110e9cef97e6253af53</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="csm_field_map"&gt;&lt;csm_field_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;order&gt;100&lt;/order&gt;&lt;source_field&gt;asset.display_name&lt;/source_field&gt;&lt;sys_class_name&gt;csm_field_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Madhuri.Annambhotla&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-07 04:46:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2d73d5519753a110e9cef97e6253af53&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;asset&lt;/sys_name&gt;&lt;sys_package display_value="SWU Device Service" source="x_1070080_swu_dev"&gt;9b37567c97132110e9cef97e6253afa0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SWU Device Service"&gt;9b37567c97132110e9cef97e6253afa0&lt;/sys_scope&gt;&lt;sys_update_name&gt;csm_field_map_2d73d5519753a110e9cef97e6253af53&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Madhuri.Annambhotla&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-07 04:46:53&lt;/sys_updated_on&gt;&lt;table_map display_value="WO-WOT mapping"&gt;034359119753a110e9cef97e6253af8b&lt;/table_map&gt;&lt;target_field&gt;asset&lt;/target_field&gt;&lt;transform_script&gt;&lt;![CDATA[(function (source) {
+	
+	// Add your code here
+	// return value or set variable 'answer' to populate selected target field
+	
+	return '';
+	
+})(source);]]&gt;&lt;/transform_script&gt;&lt;/csm_field_map&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-745225969</payload_hash>
+        <record_name>asset</record_name>
+        <reverted_from/>
+        <source>5337567c97132110e9cef97e6253afa2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Madhuri.Annambhotla</sys_created_by>
+        <sys_created_on>2023-06-07 04:46:53</sys_created_on>
+        <sys_id>878319519753a110e9cef97e6253af9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188942ddab00000001</sys_recorded_at>
+        <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
+        <sys_updated_on>2023-06-07 04:46:53</sys_updated_on>
+        <type>CSM Field Map</type>
+        <update_guid>cf831951b653a1100852593cbbc2719c</update_guid>
+        <update_guid_history>cf831951b653a1100852593cbbc2719c:-745225969</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="asset">b1cc699d9793a110e9cef97e6253afa6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Madhuri.Annambhotla</sys_created_by>
+        <sys_created_on>2023-06-07 06:37:07</sys_created_on>
+        <sys_db_object display_value="" name="csm_field_map">csm_field_map</sys_db_object>
+        <sys_id>591be8889141485a96d6893c1bff44a4</sys_id>
+        <sys_metadata>2d73d5519753a110e9cef97e6253af53</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>asset</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_scope_delete display_value="">e895e98e39c947c49d0799fdb82be490</sys_scope_delete>
+        <sys_update_name>csm_field_map_2d73d5519753a110e9cef97e6253af53</sys_update_name>
+        <sys_update_version display_value="csm_field_map_2d73d5519753a110e9cef97e6253af53">878319519753a110e9cef97e6253af9d</sys_update_version>
+        <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
+        <sys_updated_on>2023-06-07 06:37:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="requested_for" table="x_1070080_swu_dev_asset_management">
+        <active>true</active>
+        <array>false</array>
+        <attributes>encode_utf8=false</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Requested For</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>requested_for</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <name>x_1070080_swu_dev_asset_management</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 20:05:21</sys_created_on>
+        <sys_id>e32cd74d971b6110e9cef97e6253af60</sys_id>
+        <sys_name>Requested For</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>sys_dictionary_x_1070080_swu_dev_asset_management_requested_for</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 20:07:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</application>
+        <file_path/>
+        <instance_id>7a35ee16db281b80439ef70fbf9619fa</instance_id>
+        <instance_name>dev51222</instance_name>
+        <name>sys_dictionary_x_1070080_swu_dev_asset_management_requested_for</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="requested_for" table="x_1070080_swu_dev_asset_management"><active>true</active><array>false</array><attributes>encode_utf8=false</attributes><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Requested For</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>requested_for</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>true</mandatory><max_length>32</max_length><name>x_1070080_swu_dev_asset_management</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="sys_user">sys_user</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-06 20:05:21</sys_created_on><sys_id>e32cd74d971b6110e9cef97e6253af60</sys_id><sys_name>Requested For</sys_name><sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package><sys_policy/><sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope><sys_update_name>sys_dictionary_x_1070080_swu_dev_asset_management_requested_for</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-06 20:07:43</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>930835908</payload_hash>
+        <record_name>Manage Assets.Requested For</record_name>
+        <reverted_from/>
+        <source>5337567c97132110e9cef97e6253afa2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 20:07:44</sys_created_on>
+        <sys_id>9ebc578d971b6110e9cef97e6253af26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18892528e800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 20:07:44</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>d6bc578d781b6110eb680c08361c4c26</update_guid>
+        <update_guid_history>d6bc578d781b6110eb680c08361c4c26:930835908,bf2cd74da01b61107610995ee8341c72:-2098560176</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:33:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>73f1692b8f9f44bc9c30e52ac2842690</sys_id>
+        <sys_metadata>e32cd74d971b6110e9cef97e6253af60</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requested For</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_parent display_value="">4d7adf89971b6110e9cef97e6253af56</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_scope_delete display_value="">e895e98e39c947c49d0799fdb82be490</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1070080_swu_dev_asset_management_requested_for</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1070080_swu_dev_asset_management_requested_for">9ebc578d971b6110e9cef97e6253af26</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:33:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

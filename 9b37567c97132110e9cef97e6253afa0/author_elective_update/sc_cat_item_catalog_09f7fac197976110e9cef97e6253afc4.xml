@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Report an Issue">3cd73ac197976110e9cef97e6253afc2</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-06 17:27:04</sys_created_on>
+        <sys_id>09f7fac197976110e9cef97e6253afc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Report an Issue</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_09f7fac197976110e9cef97e6253afc4</sys_update_name>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-06 17:27:04</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</application>
+        <file_path/>
+        <instance_id>7a35ee16db281b80439ef70fbf9619fa</instance_id>
+        <instance_name>dev51222</instance_name>
+        <name>sc_cat_item_catalog_09f7fac197976110e9cef97e6253afc4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Report an Issue">3cd73ac197976110e9cef97e6253afc2</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>Manoj.Mothy</sys_created_by><sys_created_on>2023-06-06 17:27:04</sys_created_on><sys_id>09f7fac197976110e9cef97e6253afc4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Report an Issue</sys_name><sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package><sys_policy/><sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope><sys_update_name>sc_cat_item_catalog_09f7fac197976110e9cef97e6253afc4</sys_update_name><sys_updated_by>Manoj.Mothy</sys_updated_by><sys_updated_on>2023-06-06 17:27:04</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>942484910</payload_hash>
+        <record_name>Service Catalog.Report an Issue</record_name>
+        <reverted_from/>
+        <source>5337567c97132110e9cef97e6253afa2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-06 17:27:04</sys_created_on>
+        <sys_id>05f7fac197976110e9cef97e6253afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18891bf79200000001</sys_recorded_at>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-06 17:27:04</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>4df7fac10897611074b2f2d7944796c6</update_guid>
+        <update_guid_history>4df7fac10897611074b2f2d7944796c6:942484910</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Report an Issue">7a0cbec597976110e9cef97e6253af7d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-06 17:44:56</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>7bf8f66b0c464df0a600ad13c9042b64</sys_id>
+        <sys_metadata>09f7fac197976110e9cef97e6253afc4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Report an Issue</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_parent display_value="">3cd73ac197976110e9cef97e6253afc2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_scope_delete display_value="">e895e98e39c947c49d0799fdb82be490</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_09f7fac197976110e9cef97e6253afc4</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_09f7fac197976110e9cef97e6253afc4">05f7fac197976110e9cef97e6253afc7</sys_update_version>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-06 17:44:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

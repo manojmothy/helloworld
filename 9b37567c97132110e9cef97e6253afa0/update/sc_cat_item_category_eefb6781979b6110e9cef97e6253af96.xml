@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Asset Check-Out">6efb6381979b6110e9cef97e6253af48</sc_cat_item>
+        <sc_category display_value="Asset Management">79489fc5971b6110e9cef97e6253af70</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:14:22</sys_created_on>
+        <sys_id>eefb6781979b6110e9cef97e6253af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Asset Management.Copy of Check in an Asset</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>sc_cat_item_category_eefb6781979b6110e9cef97e6253af96</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:14:22</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

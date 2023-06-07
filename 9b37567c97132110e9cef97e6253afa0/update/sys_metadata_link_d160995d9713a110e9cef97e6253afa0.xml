@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>1560995d9713a110e9cef97e6253af9e</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sm_m2m_somodel_stmodel">
+    <sm_m2m_somodel_stmodel action="INSERT_OR_UPDATE">
+        <filter_condition/>
+        <order>2</order>
+        <so_model display_value="Work Order - Template Kamloops">a2fe1ac597176110e9cef97e6253af91</so_model>
+        <st_model display_value="3 Task to ensure Loaner Device is returned">3f7031f03f7024903f7003403f700aa0</st_model>
+        <sys_created_by>Madhuri.Annambhotla</sys_created_by>
+        <sys_created_on>2023-06-07 04:33:06</sys_created_on>
+        <sys_id>1560995d9713a110e9cef97e6253af9e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
+        <sys_updated_on>2023-06-07 05:45:51</sys_updated_on>
+        <table/>
+    </sm_m2m_somodel_stmodel>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>Madhuri.Annambhotla</sys_created_by>
+        <sys_created_on>2023-06-07 04:33:06</sys_created_on>
+        <sys_id>d160995d9713a110e9cef97e6253afa0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Created 2023-06-06 21:33:06</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>sys_metadata_link_d160995d9713a110e9cef97e6253afa0</sys_update_name>
+        <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
+        <sys_updated_on>2023-06-07 05:45:51</sys_updated_on>
+        <tablename>sm_m2m_somodel_stmodel</tablename>
+    </sys_metadata_link>
+</record_update>

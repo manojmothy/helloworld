@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Manage Assets</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1070080_swu_dev_asset_management</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 19:58:10</sys_created_on>
+        <sys_id>4d7adf89971b6110e9cef97e6253af56</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Manage Assets</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>sys_db_object_4d7adf89971b6110e9cef97e6253af56</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 20:03:45</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_1070080_swu_dev.asset_management_user" name="x_1070080_swu_dev.asset_management_user">de8a5b89971b6110e9cef97e6253af6e</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</application>
+        <file_path/>
+        <instance_id>7a35ee16db281b80439ef70fbf9619fa</instance_id>
+        <instance_name>dev51222</instance_name>
+        <name>sys_db_object_4d7adf89971b6110e9cef97e6253af56</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Manage Assets</label><live_feed_enabled>false</live_feed_enabled><name>x_1070080_swu_dev_asset_management</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-06 19:58:10</sys_created_on><sys_id>4d7adf89971b6110e9cef97e6253af56</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Manage Assets</sys_name><sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package><sys_policy/><sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope><sys_update_name>sys_db_object_4d7adf89971b6110e9cef97e6253af56</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-06 20:03:45</sys_updated_on><update_access>false</update_access><user_role display_value="x_1070080_swu_dev.asset_management_user" name="x_1070080_swu_dev.asset_management_user">de8a5b89971b6110e9cef97e6253af6e</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>1226959530</payload_hash>
+        <record_name>Manage Assets</record_name>
+        <reverted_from/>
+        <source>5337567c97132110e9cef97e6253afa2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 20:03:46</sys_created_on>
+        <sys_id>98dbdf0d971b6110e9cef97e6253af0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188924eedf70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 20:03:46</sys_updated_on>
+        <type>Table</type>
+        <update_guid>50db9f0d301b6110520f9bd57f90ae5d</update_guid>
+        <update_guid_history>50db9f0d301b6110520f9bd57f90ae5d:1226959530,f28a13c9751b6110b3fed3abff1a23fe:-1041467238</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:33:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>1390ed99a2fd471a8a942a2c83815264</sys_id>
+        <sys_metadata>4d7adf89971b6110e9cef97e6253af56</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manage Assets</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_scope_delete display_value="">e895e98e39c947c49d0799fdb82be490</sys_scope_delete>
+        <sys_update_name>sys_db_object_4d7adf89971b6110e9cef97e6253af56</sys_update_name>
+        <sys_update_version display_value="sys_db_object_4d7adf89971b6110e9cef97e6253af56">98dbdf0d971b6110e9cef97e6253af0b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:33:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"activities":{"cd7c23c1979b6110e9cef97e6253af02":"017cef81979b6110e9cef97e6253afa7","497cef81979b6110e9cef97e6253afaa":"857cef81979b6110e9cef97e6253afa6"},"stages":{"017cef81979b6110e9cef97e6253afa7":{"order":120,"duration":"1 Day","stageId":"017cef81979b6110e9cef97e6253afa7","name":"Fulfillment","value":"fulfillment"},"857cef81979b6110e9cef97e6253afa6":{"order":1100,"duration":"","stageId":"857cef81979b6110e9cef97e6253afa6","name":"Completed","value":"complete"}},"subflows":[],"ends":["097cef81979b6110e9cef97e6253afa9"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description/>
+        <expected_sequences>017c23c1979b6110e9cef97e6253af04,cd7c23c1979b6110e9cef97e6253af02,817c23c1979b6110e9cef97e6253af05,497cef81979b6110e9cef97e6253afa7,497cef81979b6110e9cef97e6253afaa,097cef81979b6110e9cef97e6253afa9</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>017c23c1979b6110e9cef97e6253af04,cd7c23c1979b6110e9cef97e6253af02,817c23c1979b6110e9cef97e6253af05,497cef81979b6110e9cef97e6253afa7,497cef81979b6110e9cef97e6253afaa,097cef81979b6110e9cef97e6253afa9</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Check-Out Asset</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field>stage</stage_field>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">017c23c1979b6110e9cef97e6253af04</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>cd7cef81979b6110e9cef97e6253afa3</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:25:58</sys_updated_on>
+        <table>sc_req_item</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="Check-Out Asset">c17cef81979b6110e9cef97e6253afa3</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>Check-Out Asset</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c17cef81979b6110e9cef97e6253afa3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Check-Out Asset</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>wf_workflow_c17cef81979b6110e9cef97e6253afa3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <table>sc_req_item</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>857cef81979b6110e9cef97e6253afa6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Delivery</name>
+        <ola>1970-01-03 00:00:00</ola>
+        <order>140</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>897cef81979b6110e9cef97e6253afa6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <value>delivery</value>
+        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Fulfillment</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>120</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>017cef81979b6110e9cef97e6253afa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <value>fulfillment</value>
+        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>0d7cef81979b6110e9cef97e6253afa6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Approved</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>90</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>8d7cef81979b6110e9cef97e6253afa6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <value>request_approved</value>
+        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Waiting for Approval</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>097cef81979b6110e9cef97e6253afa6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <value>waiting_for_approval</value>
+        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>017c23c1979b6110e9cef97e6253af04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=017c23c1979b6110e9cef97e6253af04"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">017c23c1979b6110e9cef97e6253af04</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>c97c23c1979b6110e9cef97e6253af04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Check -Out Asset </name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>817c23c1979b6110e9cef97e6253af05</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:24:05</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+        <x>425</x>
+        <y>50</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=817c23c1979b6110e9cef97e6253af05"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>817c23c1979b6110e9cef97e6253af05</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>057c23c1979b6110e9cef97e6253af05</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:24:05</sys_updated_on>
+        <value>var grAH = new GlideRecord('alm_hardware');&#13;
+if (grAH.get(current.variables.asset.toString())) {&#13;
+    grAH.install_status = 1;&#13;
+    grAH.substatus = '';&#13;
+    grAH.assigned_to = current.opened_by.toString();&#13;
+	grAH.checked_out=current.variables.check_out_date.toString();&#13;
+    //grAH.work_notes = "Asset Reserved For " + current.requested_for.getDisplayValue() + ' from ' + current.reservation_start_date.getDisplayValue() + ' to ' + current.reservation_end_date.getDisplayValue();&#13;
+    grAH.update();&#13;
+}</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>817c23c1979b6110e9cef97e6253af05</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>057c23c1979b6110e9cef97e6253af05</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:24:05</sys_updated_on>
+        <value>var grAH = new GlideRecord('alm_hardware');&#13;
+if (grAH.get(current.variables.asset.toString())) {&#13;
+    grAH.install_status = 1;&#13;
+    grAH.substatus = '';&#13;
+    grAH.assigned_to = current.opened_by.toString();&#13;
+	grAH.checked_out=current.variables.check_out_date.toString();&#13;
+    //grAH.work_notes = "Asset Reserved For " + current.requested_for.getDisplayValue() + ' from ' + current.reservation_start_date.getDisplayValue() + ' to ' + current.reservation_end_date.getDisplayValue();&#13;
+    grAH.update();&#13;
+}</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check -Out Asset ">817c23c1979b6110e9cef97e6253af05</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>0d7c23c1979b6110e9cef97e6253af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>097cef81979b6110e9cef97e6253afa9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+        <x>847</x>
+        <y>297</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=097cef81979b6110e9cef97e6253afa9"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set Stage and State</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Completed">857cef81979b6110e9cef97e6253afa6</stage>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>497cef81979b6110e9cef97e6253afaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+        <x>577</x>
+        <y>271</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=497cef81979b6110e9cef97e6253afaa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>497cef81979b6110e9cef97e6253afaa</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>8d7c23c1979b6110e9cef97e6253af01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>497cef81979b6110e9cef97e6253afaa</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>8d7c23c1979b6110e9cef97e6253af01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set Stage and State">497cef81979b6110e9cef97e6253afaa</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>097c23c1979b6110e9cef97e6253af02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set Stage and State</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Fulfillment">017cef81979b6110e9cef97e6253afa7</stage>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>cd7c23c1979b6110e9cef97e6253af02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+        <x>159</x>
+        <y>42</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=cd7c23c1979b6110e9cef97e6253af02"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cd7c23c1979b6110e9cef97e6253af02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>417c23c1979b6110e9cef97e6253af03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <value>state=2^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cd7c23c1979b6110e9cef97e6253af02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>417c23c1979b6110e9cef97e6253af03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <value>state=2^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set Stage and State">cd7c23c1979b6110e9cef97e6253af02</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>497c23c1979b6110e9cef97e6253af03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Update Comments</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>497cef81979b6110e9cef97e6253afa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+        <x>291</x>
+        <y>236</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=497cef81979b6110e9cef97e6253afa7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>497cef81979b6110e9cef97e6253afa7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>017cef81979b6110e9cef97e6253afa8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <value>current.comments=" Asset " + current.variables.asset.getDisplayValue() + " is Reserved in the system";&#13;
+current.update();</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>497cef81979b6110e9cef97e6253afa7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>017cef81979b6110e9cef97e6253afa8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <value>current.comments=" Asset " + current.variables.asset.getDisplayValue() + " is Reserved in the system";&#13;
+current.update();</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Update Comments">497cef81979b6110e9cef97e6253afa7</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>cd7cef81979b6110e9cef97e6253afa8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">0d7c23c1979b6110e9cef97e6253af05</condition>
+        <from display_value="Check -Out Asset ">817c23c1979b6110e9cef97e6253af05</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>097c23c1979b6110e9cef97e6253af07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <to display_value="Update Comments">497cef81979b6110e9cef97e6253afa7</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">cd7cef81979b6110e9cef97e6253afa8</condition>
+        <from display_value="Update Comments">497cef81979b6110e9cef97e6253afa7</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>457c23c1979b6110e9cef97e6253af07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <to display_value="Set Stage and State">497cef81979b6110e9cef97e6253afaa</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">497c23c1979b6110e9cef97e6253af03</condition>
+        <from display_value="Set Stage and State">cd7c23c1979b6110e9cef97e6253af02</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>817c23c1979b6110e9cef97e6253af07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <to display_value="Check -Out Asset ">817c23c1979b6110e9cef97e6253af05</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">c97c23c1979b6110e9cef97e6253af04</condition>
+        <from display_value="Begin">017c23c1979b6110e9cef97e6253af04</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>c97c23c1979b6110e9cef97e6253af07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <to display_value="Set Stage and State">cd7c23c1979b6110e9cef97e6253af02</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">097c23c1979b6110e9cef97e6253af02</condition>
+        <from display_value="Set Stage and State">497cef81979b6110e9cef97e6253afaa</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>cd7c23c1979b6110e9cef97e6253af06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <to display_value="End">097cef81979b6110e9cef97e6253afa9</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
+        <sys_id>c17cef81979b6110e9cef97e6253afa4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=c17cef81979b6110e9cef97e6253afa3^sys_id!=cd7cef81979b6110e9cef97e6253afa3">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

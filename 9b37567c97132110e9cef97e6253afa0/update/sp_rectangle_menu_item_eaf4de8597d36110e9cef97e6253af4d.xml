@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <color>default</color>
+        <condition>GlideSPScriptable.canSeePage("my_requests")</condition>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph/>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>Requests</label>
+        <order>100</order>
+        <record_script/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page display_value="my_requests">4ab7a3a5875023000f220cf888cb0bec</sp_page>
+        <sp_rectangle_menu display_value="SP Header Menu - SWU">c668ea7097172110e9cef97e6253af5c</sp_rectangle_menu>
+        <sp_rectangle_menu_item/>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-06 14:54:43</sys_created_on>
+        <sys_id>eaf4de8597d36110e9cef97e6253af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requests</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_eaf4de8597d36110e9cef97e6253af4d</sys_update_name>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-06 14:54:43</sys_updated_on>
+        <table/>
+        <type>page</type>
+        <url/>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=eaf4de8597d36110e9cef97e6253af4d"/>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1070080_swu_dev.asset_management_user" name="x_1070080_swu_dev.asset_management_user">de8a5b89971b6110e9cef97e6253af6e</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 19:58:10</sys_created_on>
+        <sys_id>1e8a13c9971b6110e9cef97e6253afba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>de8a5b89971b6110e9cef97e6253af6e</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>sys_embedded_help_role_1e8a13c9971b6110e9cef97e6253afba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 19:58:10</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="53807f09979b6110e9cef97e6253af24" extends="task" label="Manage Assets" max_length="40" name="x_1070080_swu_dev_manage_assets" type="collection">
+        <element label="Asset" mandatory="true" max_length="32" name="asset" reference="alm_hardware" type="reference"/>
+        <element label="Check-In Date" max_length="40" name="check_in_date" type="glide_date"/>
+        <element label="Check-Out Date" max_length="40" name="check_out_date" type="glide_date"/>
+        <element choice="1" label="Operation" mandatory="true" max_length="40" name="operation" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Reserve" sequence="1" value="Reserve"/>
+                <element inactive_on_update="false" label="Checked-Out" sequence="2" value="Checked-Out"/>
+                <element inactive_on_update="false" label="Checked-In" sequence="3" value="Checked-In"/>
+            </choice>
+        </element>
+        <element label="Requested For" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element label="Reservation End Date" max_length="40" name="reservation_end_date" type="glide_date"/>
+        <element label="Reservation Start Date" max_length="40" name="reservation_start_date" type="glide_date"/>
+    </element>
+</database>

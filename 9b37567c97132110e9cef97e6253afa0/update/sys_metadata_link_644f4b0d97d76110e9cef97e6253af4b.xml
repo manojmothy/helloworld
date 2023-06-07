@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>18e53de018e590c018e54b0018e5f2f0</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_worktask_product_model">
+    <cmdb_worktask_product_model action="INSERT_OR_UPDATE">
+        <acquisition_method/>
+        <asset_tracking_strategy>leave_to_category</asset_tracking_strategy>
+        <asset_tracking_unit display_value="Individual Unit">51a74add0f233300fee7579ac4767e59</asset_tracking_unit>
+        <assignment_group/>
+        <barcode/>
+        <bundle>false</bundle>
+        <certified>false</certified>
+        <checklist_template/>
+        <cmdb_ci_class/>
+        <cmdb_model_category>98b44470d7311100158ba6859e610353</cmdb_model_category>
+        <comments/>
+        <current/>
+        <current_unit/>
+        <depreciation/>
+        <depth/>
+        <description/>
+        <dimensions_unit/>
+        <dispatch_group display_value="WM Dispatchers" name="WM Dispatchers">17801ac21b13200050fdfbcd2c0713e8</dispatch_group>
+        <display_name>Work Order Task  1</display_name>
+        <energy_star>false</energy_star>
+        <energy_use/>
+        <expected_lifetime_co2e/>
+        <expenditure_type/>
+        <flow_rate/>
+        <full_name/>
+        <height/>
+        <is_migrated>true</is_migrated>
+        <length/>
+        <life_cycle_stage/>
+        <life_cycle_stage_status/>
+        <main_component/>
+        <manufacturer/>
+        <model_number/>
+        <name>Work Order Task  1</name>
+        <owner/>
+        <picture/>
+        <power_consumption/>
+        <power_unit/>
+        <product_catalog_item/>
+        <rack_units>1</rack_units>
+        <rated_power/>
+        <short_description>Work Order Task  1</short_description>
+        <sla/>
+        <sound_power/>
+        <status>In Production</status>
+        <sys_class_name>cmdb_worktask_product_model</sys_class_name>
+        <sys_created_by>Vikas.Gupta</sys_created_by>
+        <sys_created_on>2023-06-06 19:08:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>18e53de018e590c018e54b0018e5f2f0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Vikas.Gupta</sys_updated_by>
+        <sys_updated_on>2023-06-06 19:36:58</sys_updated_on>
+        <task_description>Work Order Task  Template 1</task_description>
+        <task_estimated_duration/>
+        <task_skills/>
+        <type>Generic</type>
+        <unit_of_measure_system/>
+        <voltage/>
+        <voltage_unit/>
+        <volume/>
+        <volume_unit/>
+        <weight/>
+        <weight_decimal/>
+        <weight_unit/>
+        <width/>
+        <work_type display_value="Planned Maintenance">076ebcbc3b0210103f09080044efc431</work_type>
+    </cmdb_worktask_product_model>
+    <fx_price action="delete_multiple" query="id=18e53de018e590c018e54b0018e5f2f0"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=18e53de018e590c018e54b0018e5f2f0"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>Vikas.Gupta</sys_created_by>
+        <sys_created_on>2023-06-06 19:08:53</sys_created_on>
+        <sys_id>644f4b0d97d76110e9cef97e6253af4b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Work Order Task  1</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>sys_metadata_link_644f4b0d97d76110e9cef97e6253af4b</sys_update_name>
+        <sys_updated_by>Vikas.Gupta</sys_updated_by>
+        <sys_updated_on>2023-06-06 19:36:59</sys_updated_on>
+        <tablename>cmdb_worktask_product_model</tablename>
+    </sys_metadata_link>
+</record_update>

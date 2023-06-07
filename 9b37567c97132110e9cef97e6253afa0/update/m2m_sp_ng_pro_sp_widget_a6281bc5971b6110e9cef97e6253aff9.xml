@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE">
+        <sp_angular_provider display_value="scBasicSelect">e225f8b43b0523008ed00d8044efc4fe</sp_angular_provider>
+        <sp_widget display_value="My Work Orders SWU">aa281bc5971b6110e9cef97e6253aff6</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-06 19:47:48</sys_created_on>
+        <sys_id>a6281bc5971b6110e9cef97e6253aff9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scBasicSelect.My Assets SWU</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_a6281bc5971b6110e9cef97e6253aff9</sys_update_name>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-06 19:47:48</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+</record_update>

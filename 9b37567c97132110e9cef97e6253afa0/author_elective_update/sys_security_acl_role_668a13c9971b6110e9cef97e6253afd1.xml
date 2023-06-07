@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 19:58:11</sys_created_on>
+        <sys_id>668a13c9971b6110e9cef97e6253afd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1070080_swu_dev_asset_management.x_1070080_swu_dev.asset_management_user</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_security_acl display_value="x_1070080_swu_dev_asset_management">6a8a13c9971b6110e9cef97e6253afcd</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_668a13c9971b6110e9cef97e6253afd1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 19:58:11</sys_updated_on>
+        <sys_user_role display_value="x_1070080_swu_dev.asset_management_user" name="x_1070080_swu_dev.asset_management_user">de8a5b89971b6110e9cef97e6253af6e</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</application>
+        <file_path/>
+        <instance_id>7a35ee16db281b80439ef70fbf9619fa</instance_id>
+        <instance_name>dev51222</instance_name>
+        <name>sys_security_acl_role_668a13c9971b6110e9cef97e6253afd1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-06 19:58:11</sys_created_on><sys_id>668a13c9971b6110e9cef97e6253afd1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1070080_swu_dev_asset_management.x_1070080_swu_dev.asset_management_user</sys_name><sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package><sys_policy/><sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope><sys_security_acl display_value="x_1070080_swu_dev_asset_management">6a8a13c9971b6110e9cef97e6253afcd</sys_security_acl><sys_update_name>sys_security_acl_role_668a13c9971b6110e9cef97e6253afd1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-06 19:58:11</sys_updated_on><sys_user_role display_value="x_1070080_swu_dev.asset_management_user" name="x_1070080_swu_dev.asset_management_user">de8a5b89971b6110e9cef97e6253af6e</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1957155928</payload_hash>
+        <record_name>x_1070080_swu_dev_asset_management.x_1070080_swu_dev.asset_management_user</record_name>
+        <reverted_from/>
+        <source>5337567c97132110e9cef97e6253afa2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 19:58:11</sys_created_on>
+        <sys_id>228a13c9971b6110e9cef97e6253afd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1889249d1c20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 19:58:11</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>6a8a13c94f1b6110f338c2d742f617d3</update_guid>
+        <update_guid_history>6a8a13c94f1b6110f338c2d742f617d3:-1957155928</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1070080_swu_dev_asset_management.x_1070080_swu_dev.asset_management_user">b350b709979b6110e9cef97e6253af8e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 21:33:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>163d104eff3743679cc488e485f707b1</sys_id>
+        <sys_metadata>668a13c9971b6110e9cef97e6253afd1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1070080_swu_dev_asset_management.x_1070080_swu_dev.asset_management_user</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_parent display_value="">6a8a13c9971b6110e9cef97e6253afcd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_scope_delete display_value="">e895e98e39c947c49d0799fdb82be490</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_668a13c9971b6110e9cef97e6253afd1</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_668a13c9971b6110e9cef97e6253afd1">228a13c9971b6110e9cef97e6253afd4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 21:33:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
