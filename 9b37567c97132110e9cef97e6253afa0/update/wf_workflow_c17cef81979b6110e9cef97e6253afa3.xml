@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"activities":{"cd7c23c1979b6110e9cef97e6253af02":"017cef81979b6110e9cef97e6253afa7","497cef81979b6110e9cef97e6253afaa":"857cef81979b6110e9cef97e6253afa6"},"stages":{"017cef81979b6110e9cef97e6253afa7":{"order":120,"duration":"1 Day","stageId":"017cef81979b6110e9cef97e6253afa7","name":"Fulfillment","value":"fulfillment"},"857cef81979b6110e9cef97e6253afa6":{"order":1100,"duration":"","stageId":"857cef81979b6110e9cef97e6253afa6","name":"Completed","value":"complete"}},"subflows":[],"ends":["097cef81979b6110e9cef97e6253afa9"]}</activity_stages>
+        <activity_stages>{"activities":{"a12f5cf9979fe110e9cef97e6253afe6":"e92f5cf9979fe110e9cef97e6253afe5"},"stages":{"e92f5cf9979fe110e9cef97e6253afe5":{"order":120,"duration":"1 Day","stageId":"e92f5cf9979fe110e9cef97e6253afe5","name":"Fulfillment","value":"fulfillment"}},"subflows":[],"ends":["e12f9cf9979fe110e9cef97e6253af8e"]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -9,40 +9,40 @@
         <condition/>
         <condition_type/>
         <description/>
-        <expected_sequences>017c23c1979b6110e9cef97e6253af04,cd7c23c1979b6110e9cef97e6253af02,817c23c1979b6110e9cef97e6253af05,497cef81979b6110e9cef97e6253afa7,497cef81979b6110e9cef97e6253afaa,097cef81979b6110e9cef97e6253afa9</expected_sequences>
+        <expected_sequences>e12f9cf9979fe110e9cef97e6253af99,6d2f9cf9979fe110e9cef97e6253af99,e12f5cf9979fe110e9cef97e6253afe7,e92f9cf9979fe110e9cef97e6253af8e,e12f9cf9979fe110e9cef97e6253af93,a52f9cf9979fe110e9cef97e6253af92,a12f5cf9979fe110e9cef97e6253afe6,e12f9cf9979fe110e9cef97e6253af8e</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>017c23c1979b6110e9cef97e6253af04,cd7c23c1979b6110e9cef97e6253af02,817c23c1979b6110e9cef97e6253af05,497cef81979b6110e9cef97e6253afa7,497cef81979b6110e9cef97e6253afaa,097cef81979b6110e9cef97e6253afa9</full_sequences>
+        <full_sequences>e12f9cf9979fe110e9cef97e6253af99,6d2f9cf9979fe110e9cef97e6253af99,e12f5cf9979fe110e9cef97e6253afe7,a12f9cf9979fe110e9cef97e6253af94,e92f9cf9979fe110e9cef97e6253af8e,a52f9cf9979fe110e9cef97e6253af92,e12f9cf9979fe110e9cef97e6253af93,a12f5cf9979fe110e9cef97e6253afe6,e12f9cf9979fe110e9cef97e6253af8e</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
-        <name>Check-Out Asset</name>
+        <name>SR - Asset Reservation - checkin</name>
         <not_cacheable>false</not_cacheable>
         <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
         <order>100</order>
         <pin_type>set_by_activity</pin_type>
         <published>true</published>
-        <relative_duration/>
+        <relative_duration display_value="2 business days by 4pm">3bf802c20a0a0b52008e2859cd8abcf2</relative_duration>
         <requires_ert>true</requires_ert>
         <run_multiple>false</run_multiple>
         <schedule/>
         <stage_field>stage</stage_field>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">017c23c1979b6110e9cef97e6253af04</start>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>cd7cef81979b6110e9cef97e6253afa3</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:25:58</sys_updated_on>
+        <start display_value="Begin">e12f9cf9979fe110e9cef97e6253af99</start>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>612f5cf9979fe110e9cef97e6253afe4</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>End.User1</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:21:31</sys_updated_on>
         <table>sc_req_item</table>
         <timezone/>
         <validated>true</validated>
-        <workflow display_value="Check-Out Asset">c17cef81979b6110e9cef97e6253afa3</workflow>
+        <workflow display_value="SR - Asset Reservation - checkin">c17cef81979b6110e9cef97e6253afa3</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
         <access>public</access>
         <description/>
-        <name>Check-Out Asset</name>
+        <name>SR - Asset Reservation - checkin</name>
         <preview/>
         <sys_class_name>wf_workflow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -50,15 +50,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c17cef81979b6110e9cef97e6253afa3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Check-Out Asset</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SR - Asset Reservation - checkin</sys_name>
         <sys_overrides/>
         <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
         <sys_policy/>
         <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
         <sys_update_name>wf_workflow_c17cef81979b6110e9cef97e6253afa3</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-07 20:24:31</sys_updated_on>
         <table>sc_req_item</table>
         <template>false</template>
         <vars/>
@@ -67,79 +67,79 @@
         <name>Completed</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>1100</order>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>857cef81979b6110e9cef97e6253afa6</sys_id>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e52f5cf9979fe110e9cef97e6253afe5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
         <value>complete</value>
-        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+        <workflow_version display_value="SR - Asset Reservation - checkin">612f5cf9979fe110e9cef97e6253afe4</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Delivery</name>
         <ola>1970-01-03 00:00:00</ola>
         <order>140</order>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>897cef81979b6110e9cef97e6253afa6</sys_id>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>612f5cf9979fe110e9cef97e6253afe5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
         <value>delivery</value>
-        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+        <workflow_version display_value="SR - Asset Reservation - checkin">612f5cf9979fe110e9cef97e6253afe4</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Fulfillment</name>
         <ola>1970-01-02 00:00:00</ola>
         <order>120</order>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>017cef81979b6110e9cef97e6253afa7</sys_id>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e92f5cf9979fe110e9cef97e6253afe5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
         <value>fulfillment</value>
-        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+        <workflow_version display_value="SR - Asset Reservation - checkin">612f5cf9979fe110e9cef97e6253afe4</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Request Cancelled</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>1000</order>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>0d7cef81979b6110e9cef97e6253afa6</sys_id>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e12f5cf9979fe110e9cef97e6253afe5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
         <value>Request Cancelled</value>
-        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+        <workflow_version display_value="SR - Asset Reservation - checkin">612f5cf9979fe110e9cef97e6253afe4</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Request Approved</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>90</order>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>8d7cef81979b6110e9cef97e6253afa6</sys_id>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>652f5cf9979fe110e9cef97e6253afe5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
         <value>request_approved</value>
-        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+        <workflow_version display_value="SR - Asset Reservation - checkin">612f5cf9979fe110e9cef97e6253afe4</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Waiting for Approval</name>
         <ola>1970-01-02 00:00:00</ola>
         <order>100</order>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>097cef81979b6110e9cef97e6253afa6</sys_id>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>692f5cf9979fe110e9cef97e6253afe5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
         <value>waiting_for_approval</value>
-        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+        <workflow_version display_value="SR - Asset Reservation - checkin">612f5cf9979fe110e9cef97e6253afe4</workflow_version>
     </wf_stage>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
@@ -156,22 +156,22 @@
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>017c23c1979b6110e9cef97e6253af04</sys_id>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e12f9cf9979fe110e9cef97e6253af99</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
-        <x>20</x>
-        <y>20</y>
+        <workflow_version display_value="SR - Asset Reservation - checkin">612f5cf9979fe110e9cef97e6253afe4</workflow_version>
+        <x>69</x>
+        <y>27</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=017c23c1979b6110e9cef97e6253af04"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e12f9cf9979fe110e9cef97e6253af99"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">017c23c1979b6110e9cef97e6253af04</activity>
+        <activity display_value="Begin">e12f9cf9979fe110e9cef97e6253af99</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -184,12 +184,663 @@
         <order>0</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>c97c23c1979b6110e9cef97e6253af04</sys_id>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a52f9cf9979fe110e9cef97e6253af99</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Timer">3961a1da0a0a0b5c00ecd84822f70d85</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>11</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>check asset install status every 24 hrs</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e92f9cf9979fe110e9cef97e6253af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="SR - Asset Reservation - checkin">612f5cf9979fe110e9cef97e6253afe4</workflow_version>
+        <x>705</x>
+        <y>17</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e92f9cf9979fe110e9cef97e6253af8e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>212f9cf9979fe110e9cef97e6253af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>252f9cf9979fe110e9cef97e6253af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Field">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>292f9cf9979fe110e9cef97e6253af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>612f9cf9979fe110e9cef97e6253af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>652f9cf9979fe110e9cef97e6253af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>692f9cf9979fe110e9cef97e6253af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>6d2f9cf9979fe110e9cef97e6253af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a12f9cf9979fe110e9cef97e6253af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Wait">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a52f9cf9979fe110e9cef97e6253af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Timer based on">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a92f9cf9979fe110e9cef97e6253af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Percentage">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>ad2f9cf9979fe110e9cef97e6253af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>1970-01-01 00:01:00</value>
+        <variable display_value="Duration">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e12f9cf9979fe110e9cef97e6253af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time after">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e52f9cf9979fe110e9cef97e6253af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time before">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e92f9cf9979fe110e9cef97e6253af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Script">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>ed2f9cf9979fe110e9cef97e6253af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a52f9cf9979fe110e9cef97e6253af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Timer based on">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>ed2f9cf9979fe110e9cef97e6253af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>292f9cf9979fe110e9cef97e6253af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a12f9cf9979fe110e9cef97e6253af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Wait">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>ad2f9cf9979fe110e9cef97e6253af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>1970-01-01 00:01:00</value>
+        <variable display_value="Duration">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>612f9cf9979fe110e9cef97e6253af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>252f9cf9979fe110e9cef97e6253af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Field">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>212f9cf9979fe110e9cef97e6253af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>6d2f9cf9979fe110e9cef97e6253af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>652f9cf9979fe110e9cef97e6253af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>692f9cf9979fe110e9cef97e6253af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e12f9cf9979fe110e9cef97e6253af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time after">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e52f9cf9979fe110e9cef97e6253af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time before">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a92f9cf9979fe110e9cef97e6253af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Percentage">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e92f9cf9979fe110e9cef97e6253af8e</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e92f9cf9979fe110e9cef97e6253af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Script">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="check asset install status every 24 hrs">e92f9cf9979fe110e9cef97e6253af8e</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>ed2f9cf9979fe110e9cef97e6253af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>check asset return option</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>6d2f9cf9979fe110e9cef97e6253af99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="SR - Asset Reservation - checkin">612f5cf9979fe110e9cef97e6253afe4</workflow_version>
+        <x>45</x>
+        <y>134</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=6d2f9cf9979fe110e9cef97e6253af99"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6d2f9cf9979fe110e9cef97e6253af99</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>252f9cf9979fe110e9cef97e6253af9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6d2f9cf9979fe110e9cef97e6253af99</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>612f9cf9979fe110e9cef97e6253af9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>variables.916a202597dfa110e9cef97e6253aff8=ship_it_back^EQ</value>
+        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6d2f9cf9979fe110e9cef97e6253af99</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e52f9cf9979fe110e9cef97e6253af9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6d2f9cf9979fe110e9cef97e6253af99</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>612f9cf9979fe110e9cef97e6253af9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>variables.916a202597dfa110e9cef97e6253aff8=ship_it_back^EQ</value>
+        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6d2f9cf9979fe110e9cef97e6253af99</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>252f9cf9979fe110e9cef97e6253af9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6d2f9cf9979fe110e9cef97e6253af99</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e52f9cf9979fe110e9cef97e6253af9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="check asset return option">6d2f9cf9979fe110e9cef97e6253af99</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>ed2f9cf9979fe110e9cef97e6253af9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="check asset return option">6d2f9cf9979fe110e9cef97e6253af99</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>6d2f9cf9979fe110e9cef97e6253af9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -198,7 +849,7 @@
         <height/>
         <input>{}</input>
         <is_parent>false</is_parent>
-        <name>Check -Out Asset </name>
+        <name>check if asset is checked-in</name>
         <new_activity_definition/>
         <notes/>
         <out_of_date>false</out_of_date>
@@ -206,84 +857,127 @@
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>817c23c1979b6110e9cef97e6253af05</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:24:05</sys_updated_on>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e12f9cf9979fe110e9cef97e6253af93</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:15:47</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
-        <x>425</x>
-        <y>50</y>
+        <workflow_version display_value="SR - Asset Reservation - checkin">612f5cf9979fe110e9cef97e6253afe4</workflow_version>
+        <x>1019</x>
+        <y>145</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=817c23c1979b6110e9cef97e6253af05"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e12f9cf9979fe110e9cef97e6253af93"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>817c23c1979b6110e9cef97e6253af05</document_key>
+        <document_key>e12f9cf9979fe110e9cef97e6253af93</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>057c23c1979b6110e9cef97e6253af05</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:24:05</sys_updated_on>
-        <value>var grAH = new GlideRecord('alm_hardware');&#13;
-if (grAH.get(current.variables.asset.toString())) {&#13;
-    grAH.install_status = 1;&#13;
-    grAH.substatus = '';&#13;
-    grAH.assigned_to = current.opened_by.toString();&#13;
-	grAH.checked_out=current.variables.check_out_date.toString();&#13;
-    //grAH.work_notes = "Asset Reserved For " + current.requested_for.getDisplayValue() + ' from ' + current.reservation_start_date.getDisplayValue() + ' to ' + current.reservation_end_date.getDisplayValue();&#13;
-    grAH.update();&#13;
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>652f9cf9979fe110e9cef97e6253af93</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:15:47</sys_updated_on>
+        <value>var gr = new GlideRecord('alm_asset');&#13;
+if (gr.get(current.variables.asset + '')) {&#13;
+    if (gr.install_status == '6' &amp;&amp; gr.substatus == 'available') //checks if asset state is in stock and sub state is availalbe&#13;
+	{ &#13;
+        activity.result = 'Asset checked-in';&#13;
+    updateTask();&#13;
+    } else&#13;
+        activity.result = 'Asset not checked-in';&#13;
+}&#13;
+&#13;
+function updateTask(){&#13;
+	var grtask = new GlideRecord("sc_task");&#13;
+grtask.addQuery("request_item", current.sys_id+'');&#13;
+grtask.query();&#13;
+if (grtask.next()) {&#13;
+grtask.state = 3;&#13;
+	grtask.update();&#13;
+}&#13;
+&#13;
 }</value>
         <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>817c23c1979b6110e9cef97e6253af05</document_key>
+        <document_key>e12f9cf9979fe110e9cef97e6253af93</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>057c23c1979b6110e9cef97e6253af05</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:24:05</sys_updated_on>
-        <value>var grAH = new GlideRecord('alm_hardware');&#13;
-if (grAH.get(current.variables.asset.toString())) {&#13;
-    grAH.install_status = 1;&#13;
-    grAH.substatus = '';&#13;
-    grAH.assigned_to = current.opened_by.toString();&#13;
-	grAH.checked_out=current.variables.check_out_date.toString();&#13;
-    //grAH.work_notes = "Asset Reserved For " + current.requested_for.getDisplayValue() + ' from ' + current.reservation_start_date.getDisplayValue() + ' to ' + current.reservation_end_date.getDisplayValue();&#13;
-    grAH.update();&#13;
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>652f9cf9979fe110e9cef97e6253af93</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:15:47</sys_updated_on>
+        <value>var gr = new GlideRecord('alm_asset');&#13;
+if (gr.get(current.variables.asset + '')) {&#13;
+    if (gr.install_status == '6' &amp;&amp; gr.substatus == 'available') //checks if asset state is in stock and sub state is availalbe&#13;
+	{ &#13;
+        activity.result = 'Asset checked-in';&#13;
+    updateTask();&#13;
+    } else&#13;
+        activity.result = 'Asset not checked-in';&#13;
+}&#13;
+&#13;
+function updateTask(){&#13;
+	var grtask = new GlideRecord("sc_task");&#13;
+grtask.addQuery("request_item", current.sys_id+'');&#13;
+grtask.query();&#13;
+if (grtask.next()) {&#13;
+grtask.state = 3;&#13;
+	grtask.update();&#13;
+}&#13;
+&#13;
 }</value>
         <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Check -Out Asset ">817c23c1979b6110e9cef97e6253af05</activity>
-        <condition>true</condition>
+        <activity display_value="check if asset is checked-in">e12f9cf9979fe110e9cef97e6253af93</activity>
+        <condition>activity.result == 'Asset checked-in'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
         <else_flag>false</else_flag>
         <error>false</error>
         <event>false</event>
         <event_name/>
-        <is_positive>true</is_positive>
-        <name>Always</name>
+        <is_positive>false</is_positive>
+        <name>Asset checked-in</name>
         <order>0</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>0d7c23c1979b6110e9cef97e6253af05</sys_id>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>692f9cf9979fe110e9cef97e6253af93</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="check if asset is checked-in">e12f9cf9979fe110e9cef97e6253af93</activity>
+        <condition>activity.result == 'Asset not checked-in'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Asset not checked -in</name>
+        <order>1</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e92f9cf9979fe110e9cef97e6253af93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -300,98 +994,20 @@ if (grAH.get(current.variables.asset.toString())) {&#13;
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>097cef81979b6110e9cef97e6253afa9</sys_id>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e12f9cf9979fe110e9cef97e6253af8e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
-        <x>847</x>
-        <y>297</y>
+        <workflow_version display_value="SR - Asset Reservation - checkin">612f5cf9979fe110e9cef97e6253afe4</workflow_version>
+        <x>1199</x>
+        <y>673</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=097cef81979b6110e9cef97e6253afa9"/>
-    <wf_activity action="INSERT_OR_UPDATE">
-        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
-        <activity_definition_updated>false</activity_definition_updated>
-        <databus_lookup_id>6</databus_lookup_id>
-        <height/>
-        <input>{}</input>
-        <is_parent>false</is_parent>
-        <name>Set Stage and State</name>
-        <new_activity_definition/>
-        <notes/>
-        <out_of_date>false</out_of_date>
-        <parent/>
-        <pinned>false</pinned>
-        <pinned_version/>
-        <stage display_value="Completed">857cef81979b6110e9cef97e6253afa6</stage>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>497cef81979b6110e9cef97e6253afaa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
-        <timeout>1970-01-01 00:00:00</timeout>
-        <vars/>
-        <width/>
-        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
-        <x>577</x>
-        <y>271</y>
-    </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=497cef81979b6110e9cef97e6253afaa"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>497cef81979b6110e9cef97e6253afaa</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>8d7c23c1979b6110e9cef97e6253af01</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
-        <value>state=3^EQ</value>
-        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>497cef81979b6110e9cef97e6253afaa</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>8d7c23c1979b6110e9cef97e6253af01</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
-        <value>state=3^EQ</value>
-        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
-    </sys_variable_value>
-    <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Set Stage and State">497cef81979b6110e9cef97e6253afaa</activity>
-        <condition>true</condition>
-        <condition_default/>
-        <condition_type>standard</condition_type>
-        <else_flag>false</else_flag>
-        <error>false</error>
-        <event>false</event>
-        <event_name/>
-        <is_positive>true</is_positive>
-        <name>Always</name>
-        <order>0</order>
-        <short_description/>
-        <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>097c23c1979b6110e9cef97e6253af02</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
-    </wf_condition>
+    <sys_variable_value action="delete_multiple" query="document_key=e12f9cf9979fe110e9cef97e6253af8e"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -406,51 +1022,51 @@ if (grAH.get(current.variables.asset.toString())) {&#13;
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Fulfillment">017cef81979b6110e9cef97e6253afa7</stage>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>cd7c23c1979b6110e9cef97e6253af02</sys_id>
+        <stage display_value="Fulfillment">e92f5cf9979fe110e9cef97e6253afe5</stage>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a12f5cf9979fe110e9cef97e6253afe6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
-        <x>159</x>
-        <y>42</y>
+        <workflow_version display_value="SR - Asset Reservation - checkin">612f5cf9979fe110e9cef97e6253afe4</workflow_version>
+        <x>956</x>
+        <y>401</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=cd7c23c1979b6110e9cef97e6253af02"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a12f5cf9979fe110e9cef97e6253afe6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>cd7c23c1979b6110e9cef97e6253af02</document_key>
+        <document_key>a12f5cf9979fe110e9cef97e6253afe6</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>417c23c1979b6110e9cef97e6253af03</sys_id>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a52f5cf9979fe110e9cef97e6253afe6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
-        <value>state=2^EQ</value>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>state=3^stage=Completed^EQ</value>
         <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>cd7c23c1979b6110e9cef97e6253af02</document_key>
+        <document_key>a12f5cf9979fe110e9cef97e6253afe6</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>417c23c1979b6110e9cef97e6253af03</sys_id>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a52f5cf9979fe110e9cef97e6253afe6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
-        <value>state=2^EQ</value>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>state=3^stage=Completed^EQ</value>
         <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Set Stage and State">cd7c23c1979b6110e9cef97e6253af02</activity>
+        <activity display_value="Set Stage and State">a12f5cf9979fe110e9cef97e6253afe6</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -463,12 +1079,1480 @@ if (grAH.get(current.variables.asset.toString())) {&#13;
         <order>0</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>497c23c1979b6110e9cef97e6253af03</sys_id>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a92f5cf9979fe110e9cef97e6253afe6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Catalog Task">38891b6f0a0a0b1e00efdfdd77602027</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>8</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>task for stockroom group</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a12f9cf9979fe110e9cef97e6253af94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="SR - Asset Reservation - checkin">612f5cf9979fe110e9cef97e6253afe4</workflow_version>
+        <x>339</x>
+        <y>303</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=a12f9cf9979fe110e9cef97e6253af94"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>212f9cf9979fe110e9cef97e6253af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">8f6c1eb6c0a8006633bb0f81ef62d520</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>212f9cf9979fe110e9cef97e6253af98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Instructions">d7f6e527c0a801650053e44a74e34315</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>252f9cf9979fe110e9cef97e6253af94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>additional_details_just,asset,check_in_date,return_asset</value>
+        <variable display_value="Variables on Task Form">acb99baa0a0a0ba300d0938182192ad4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>252f9cf9979fe110e9cef97e6253af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Task Table">d7eb710cc0a80165001dace00d26aee0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>292f9cf9979fe110e9cef97e6253af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">8f630a2cc0a80066385b16d90585802d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>2d2f9cf9979fe110e9cef97e6253af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait for completion">c360af110a0a0ba97c533f11e09f464f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>612f9cf9979fe110e9cef97e6253af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Field">8f722677c0a800664d3a879fadd87bfc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>652f9cf9979fe110e9cef97e6253af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Set Values">c360b4100a0a0ba97c533f1148325820</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>692f9cf9979fe110e9cef97e6253af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">8f68b111c0a800662a07dc10fa198c4f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>692f9cf9979fe110e9cef97e6253af98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">8f6d4120c0a8006655edc4495deb43ab</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>6d2f9cf9979fe110e9cef97e6253af94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>f4cd05a99753e110e9cef97e6253afe2</value>
+        <variable display_value="Fulfillment group">d7f2bd33c0a801650021da8ff242a081</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1660</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>6d2f9cf9979fe110e9cef97e6253af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
+//&#13;
+// For example:&#13;
+//     task.short_description = current.short_description;&#13;
+</value>
+        <variable display_value="Advanced script">98b96f90c0a800666b58ec516f330397</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a12f9cf9979fe110e9cef97e6253af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">c360b80b0a0a0ba97c533f11a0c9814c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a52f9cf9979fe110e9cef97e6253af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>Asset Reservation - Checkin | Return to Stockroom</value>
+        <variable display_value="Short description">d7f61655c0a8016500793dd16da8beff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a52f9cf9979fe110e9cef97e6253af98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">8f5ec60dc0a800667063095e6702d1ee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a92f9cf9979fe110e9cef97e6253af94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">98b91165c0a800665c43a410b6f29fe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a92f9cf9979fe110e9cef97e6253af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>Fields</value>
+        <variable display_value="Task value from">d7ee92ddc0a8016500b307a89bbf3db1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>ad2f9cf9979fe110e9cef97e6253af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Priority">d7ec9d5cc0a8016500a4ed439b25f438</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e12f9cf9979fe110e9cef97e6253af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Template">d7f79afac0a80165001b98ae987d06a5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e12f9cf9979fe110e9cef97e6253af98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">8f6728b4c0a80066478f02b692654b58</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e52f9cf9979fe110e9cef97e6253af94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">8f63ae0fc0a80066697c832ba44df4e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e52f9cf9979fe110e9cef97e6253af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">8f6814cfc0a8006605477949c2fa6e6e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e92f9cf9979fe110e9cef97e6253af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Assigned to">d7f3c998c0a8016500d0204c0005453b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>ed2f9cf9979fe110e9cef97e6253af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">8f79bbdbc0a80066479b2d5ea4863c24</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>252f9cf9979fe110e9cef97e6253af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Task Table">d7eb710cc0a80165001dace00d26aee0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>ad2f9cf9979fe110e9cef97e6253af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Priority">d7ec9d5cc0a8016500a4ed439b25f438</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>2d2f9cf9979fe110e9cef97e6253af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait for completion">c360af110a0a0ba97c533f11e09f464f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a52f9cf9979fe110e9cef97e6253af98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">8f5ec60dc0a800667063095e6702d1ee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a12f9cf9979fe110e9cef97e6253af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">c360b80b0a0a0ba97c533f11a0c9814c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>612f9cf9979fe110e9cef97e6253af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Field">8f722677c0a800664d3a879fadd87bfc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>292f9cf9979fe110e9cef97e6253af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">8f630a2cc0a80066385b16d90585802d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e52f9cf9979fe110e9cef97e6253af94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">8f63ae0fc0a80066697c832ba44df4e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e12f9cf9979fe110e9cef97e6253af98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">8f6728b4c0a80066478f02b692654b58</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e52f9cf9979fe110e9cef97e6253af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">8f6814cfc0a8006605477949c2fa6e6e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>692f9cf9979fe110e9cef97e6253af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">8f68b111c0a800662a07dc10fa198c4f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>212f9cf9979fe110e9cef97e6253af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">8f6c1eb6c0a8006633bb0f81ef62d520</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>692f9cf9979fe110e9cef97e6253af98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">8f6d4120c0a8006655edc4495deb43ab</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a92f9cf9979fe110e9cef97e6253af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>Fields</value>
+        <variable display_value="Task value from">d7ee92ddc0a8016500b307a89bbf3db1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>6d2f9cf9979fe110e9cef97e6253af94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>f4cd05a99753e110e9cef97e6253afe2</value>
+        <variable display_value="Fulfillment group">d7f2bd33c0a801650021da8ff242a081</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e92f9cf9979fe110e9cef97e6253af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Assigned to">d7f3c998c0a8016500d0204c0005453b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a52f9cf9979fe110e9cef97e6253af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>Asset Reservation - Checkin | Return to Stockroom</value>
+        <variable display_value="Short description">d7f61655c0a8016500793dd16da8beff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>212f9cf9979fe110e9cef97e6253af98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Instructions">d7f6e527c0a801650053e44a74e34315</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e12f9cf9979fe110e9cef97e6253af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Template">d7f79afac0a80165001b98ae987d06a5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>652f9cf9979fe110e9cef97e6253af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Set Values">c360b4100a0a0ba97c533f1148325820</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a92f9cf9979fe110e9cef97e6253af94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">98b91165c0a800665c43a410b6f29fe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1660</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>6d2f9cf9979fe110e9cef97e6253af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
+//&#13;
+// For example:&#13;
+//     task.short_description = current.short_description;&#13;
+</value>
+        <variable display_value="Advanced script">98b96f90c0a800666b58ec516f330397</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>252f9cf9979fe110e9cef97e6253af94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>additional_details_just,asset,check_in_date,return_asset</value>
+        <variable display_value="Variables on Task Form">acb99baa0a0a0ba300d0938182192ad4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a12f9cf9979fe110e9cef97e6253af94</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>ed2f9cf9979fe110e9cef97e6253af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">8f79bbdbc0a80066479b2d5ea4863c24</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="task for stockroom group">a12f9cf9979fe110e9cef97e6253af94</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>6d2f9cf9979fe110e9cef97e6253af98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Catalog Task">38891b6f0a0a0b1e00efdfdd77602027</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>9</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>task for stockroom group</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e12f5cf9979fe110e9cef97e6253afe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="SR - Asset Reservation - checkin">612f5cf9979fe110e9cef97e6253afe4</workflow_version>
+        <x>515</x>
+        <y>40</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e12f5cf9979fe110e9cef97e6253afe7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>212f5cf9979fe110e9cef97e6253afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>de9d05a99753e110e9cef97e6253af48</value>
+        <variable display_value="Fulfillment group">d7f2bd33c0a801650021da8ff242a081</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>252f9cf9979fe110e9cef97e6253af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">8f5ec60dc0a800667063095e6702d1ee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>292f5cf9979fe110e9cef97e6253afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Set Values">c360b4100a0a0ba97c533f1148325820</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>292f9cf9979fe110e9cef97e6253af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>Fields</value>
+        <variable display_value="Task value from">d7ee92ddc0a8016500b307a89bbf3db1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>2d2f5cf9979fe110e9cef97e6253afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">8f68b111c0a800662a07dc10fa198c4f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>2d2f9cf9979fe110e9cef97e6253af8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Priority">d7ec9d5cc0a8016500a4ed439b25f438</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>612f9cf9979fe110e9cef97e6253af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">8f6728b4c0a80066478f02b692654b58</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>652f5cf9979fe110e9cef97e6253afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">c360b80b0a0a0ba97c533f11a0c9814c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>652f9cf9979fe110e9cef97e6253af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">8f6814cfc0a8006605477949c2fa6e6e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>692f5cf9979fe110e9cef97e6253afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>Asset Reservation - Checkin | Ship it back</value>
+        <variable display_value="Short description">d7f61655c0a8016500793dd16da8beff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>6d2f5cf9979fe110e9cef97e6253afe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Advanced">98b91165c0a800665c43a410b6f29fe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a12f5cf9979fe110e9cef97e6253afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">8f79bbdbc0a80066479b2d5ea4863c24</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a12f9cf9979fe110e9cef97e6253af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Task Table">d7eb710cc0a80165001dace00d26aee0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a52f5cf9979fe110e9cef97e6253afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Template">d7f79afac0a80165001b98ae987d06a5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a92f5cf9979fe110e9cef97e6253afe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">8f63ae0fc0a80066697c832ba44df4e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>ad2f5cf9979fe110e9cef97e6253afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Assigned to">d7f3c998c0a8016500d0204c0005453b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>ad2f9cf9979fe110e9cef97e6253af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Instructions">d7f6e527c0a801650053e44a74e34315</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e12f5cf9979fe110e9cef97e6253afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">8f6c1eb6c0a8006633bb0f81ef62d520</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e52f5cf9979fe110e9cef97e6253afe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>additional_details_just,asset,check_in_date,return_asset</value>
+        <variable display_value="Variables on Task Form">acb99baa0a0a0ba300d0938182192ad4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e52f9cf9979fe110e9cef97e6253af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">8f6d4120c0a8006655edc4495deb43ab</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e92f5cf9979fe110e9cef97e6253afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">8f630a2cc0a80066385b16d90585802d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1660</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e92f9cf9979fe110e9cef97e6253af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
+//&#13;
+// For example:&#13;
+   task.short_description = "Asset Reservation - Checkin | Ship it back";&#13;
+</value>
+        <variable display_value="Advanced script">98b96f90c0a800666b58ec516f330397</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>ed2f5cf9979fe110e9cef97e6253afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Wait for completion">c360af110a0a0ba97c533f11e09f464f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>ed2f9cf9979fe110e9cef97e6253af8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Field">8f722677c0a800664d3a879fadd87bfc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a12f9cf9979fe110e9cef97e6253af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Task Table">d7eb710cc0a80165001dace00d26aee0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>2d2f9cf9979fe110e9cef97e6253af8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Priority">d7ec9d5cc0a8016500a4ed439b25f438</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>ed2f5cf9979fe110e9cef97e6253afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Wait for completion">c360af110a0a0ba97c533f11e09f464f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>252f9cf9979fe110e9cef97e6253af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">8f5ec60dc0a800667063095e6702d1ee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>652f5cf9979fe110e9cef97e6253afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">c360b80b0a0a0ba97c533f11a0c9814c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>ed2f9cf9979fe110e9cef97e6253af8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Field">8f722677c0a800664d3a879fadd87bfc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e92f5cf9979fe110e9cef97e6253afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">8f630a2cc0a80066385b16d90585802d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a92f5cf9979fe110e9cef97e6253afe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">8f63ae0fc0a80066697c832ba44df4e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>612f9cf9979fe110e9cef97e6253af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">8f6728b4c0a80066478f02b692654b58</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>652f9cf9979fe110e9cef97e6253af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">8f6814cfc0a8006605477949c2fa6e6e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>2d2f5cf9979fe110e9cef97e6253afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">8f68b111c0a800662a07dc10fa198c4f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e12f5cf9979fe110e9cef97e6253afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">8f6c1eb6c0a8006633bb0f81ef62d520</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e52f9cf9979fe110e9cef97e6253af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">8f6d4120c0a8006655edc4495deb43ab</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>292f9cf9979fe110e9cef97e6253af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>Fields</value>
+        <variable display_value="Task value from">d7ee92ddc0a8016500b307a89bbf3db1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>212f5cf9979fe110e9cef97e6253afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>de9d05a99753e110e9cef97e6253af48</value>
+        <variable display_value="Fulfillment group">d7f2bd33c0a801650021da8ff242a081</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>ad2f5cf9979fe110e9cef97e6253afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Assigned to">d7f3c998c0a8016500d0204c0005453b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>692f5cf9979fe110e9cef97e6253afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>Asset Reservation - Checkin | Ship it back</value>
+        <variable display_value="Short description">d7f61655c0a8016500793dd16da8beff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>ad2f9cf9979fe110e9cef97e6253af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Instructions">d7f6e527c0a801650053e44a74e34315</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a52f5cf9979fe110e9cef97e6253afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Template">d7f79afac0a80165001b98ae987d06a5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>292f5cf9979fe110e9cef97e6253afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value/>
+        <variable display_value="Set Values">c360b4100a0a0ba97c533f1148325820</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>6d2f5cf9979fe110e9cef97e6253afe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Advanced">98b91165c0a800665c43a410b6f29fe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1660</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e92f9cf9979fe110e9cef97e6253af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
+//&#13;
+// For example:&#13;
+   task.short_description = "Asset Reservation - Checkin | Ship it back";&#13;
+</value>
+        <variable display_value="Advanced script">98b96f90c0a800666b58ec516f330397</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e52f5cf9979fe110e9cef97e6253afe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>additional_details_just,asset,check_in_date,return_asset</value>
+        <variable display_value="Variables on Task Form">acb99baa0a0a0ba300d0938182192ad4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e12f5cf9979fe110e9cef97e6253afe7</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a12f5cf9979fe110e9cef97e6253afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">8f79bbdbc0a80066479b2d5ea4863c24</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="task for stockroom group">e12f5cf9979fe110e9cef97e6253afe7</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>6d2f9cf9979fe110e9cef97e6253af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -485,52 +2569,52 @@ if (grAH.get(current.variables.asset.toString())) {&#13;
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>497cef81979b6110e9cef97e6253afa7</sys_id>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a52f9cf9979fe110e9cef97e6253af92</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
-        <x>291</x>
-        <y>236</y>
+        <workflow_version display_value="SR - Asset Reservation - checkin">612f5cf9979fe110e9cef97e6253afe4</workflow_version>
+        <x>898</x>
+        <y>278</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=497cef81979b6110e9cef97e6253afa7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a52f9cf9979fe110e9cef97e6253af92"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>497cef81979b6110e9cef97e6253afa7</document_key>
+        <document_key>a52f9cf9979fe110e9cef97e6253af92</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>017cef81979b6110e9cef97e6253afa8</sys_id>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>292f9cf9979fe110e9cef97e6253af92</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
-        <value>current.comments=" Asset " + current.variables.asset.getDisplayValue() + " is Reserved in the system";&#13;
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>current.comments=" Asset " + current.variables.asset.getDisplayValue() + " is checked in";&#13;
 current.update();</value>
         <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>497cef81979b6110e9cef97e6253afa7</document_key>
+        <document_key>a52f9cf9979fe110e9cef97e6253af92</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>017cef81979b6110e9cef97e6253afa8</sys_id>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>292f9cf9979fe110e9cef97e6253af92</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
-        <value>current.comments=" Asset " + current.variables.asset.getDisplayValue() + " is Reserved in the system";&#13;
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <value>current.comments=" Asset " + current.variables.asset.getDisplayValue() + " is checked in";&#13;
 current.update();</value>
         <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Update Comments">497cef81979b6110e9cef97e6253afa7</activity>
+        <activity display_value="Update Comments">a52f9cf9979fe110e9cef97e6253af92</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -543,81 +2627,136 @@ current.update();</value>
         <order>0</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>cd7cef81979b6110e9cef97e6253afa8</sys_id>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>2d2f9cf9979fe110e9cef97e6253af92</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">0d7c23c1979b6110e9cef97e6253af05</condition>
-        <from display_value="Check -Out Asset ">817c23c1979b6110e9cef97e6253af05</from>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>097c23c1979b6110e9cef97e6253af07</sys_id>
+        <condition display_value="Always">ed2f9cf9979fe110e9cef97e6253af91</condition>
+        <from display_value="check asset install status every 24 hrs">e92f9cf9979fe110e9cef97e6253af8e</from>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>252f9cf9979fe110e9cef97e6253af9c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
-        <to display_value="Update Comments">497cef81979b6110e9cef97e6253afa7</to>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <to display_value="check if asset is checked-in">e12f9cf9979fe110e9cef97e6253af93</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">cd7cef81979b6110e9cef97e6253afa8</condition>
-        <from display_value="Update Comments">497cef81979b6110e9cef97e6253afa7</from>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>457c23c1979b6110e9cef97e6253af07</sys_id>
+        <condition display_value="Always">6d2f9cf9979fe110e9cef97e6253af8d</condition>
+        <from display_value="task for stockroom group">e12f5cf9979fe110e9cef97e6253afe7</from>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>252f9cf9979fe110e9cef97e6253af9d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
-        <to display_value="Set Stage and State">497cef81979b6110e9cef97e6253afaa</to>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <to display_value="check asset install status every 24 hrs">e92f9cf9979fe110e9cef97e6253af8e</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">497c23c1979b6110e9cef97e6253af03</condition>
-        <from display_value="Set Stage and State">cd7c23c1979b6110e9cef97e6253af02</from>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>817c23c1979b6110e9cef97e6253af07</sys_id>
+        <condition display_value="Always">2d2f9cf9979fe110e9cef97e6253af92</condition>
+        <from display_value="Update Comments">a52f9cf9979fe110e9cef97e6253af92</from>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>2d2f9cf9979fe110e9cef97e6253af9c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
-        <to display_value="Check -Out Asset ">817c23c1979b6110e9cef97e6253af05</to>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <to display_value="Set Stage and State">a12f5cf9979fe110e9cef97e6253afe6</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">c97c23c1979b6110e9cef97e6253af04</condition>
-        <from display_value="Begin">017c23c1979b6110e9cef97e6253af04</from>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>c97c23c1979b6110e9cef97e6253af07</sys_id>
+        <condition display_value="Always">a52f9cf9979fe110e9cef97e6253af99</condition>
+        <from display_value="Begin">e12f9cf9979fe110e9cef97e6253af99</from>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>612f9cf9979fe110e9cef97e6253af9c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
-        <to display_value="Set Stage and State">cd7c23c1979b6110e9cef97e6253af02</to>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <to display_value="check asset return option">6d2f9cf9979fe110e9cef97e6253af99</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">097c23c1979b6110e9cef97e6253af02</condition>
-        <from display_value="Set Stage and State">497cef81979b6110e9cef97e6253afaa</from>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>cd7c23c1979b6110e9cef97e6253af06</sys_id>
+        <condition display_value="Asset checked-in">692f9cf9979fe110e9cef97e6253af93</condition>
+        <from display_value="check if asset is checked-in">e12f9cf9979fe110e9cef97e6253af93</from>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>612f9cf9979fe110e9cef97e6253af9d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
-        <to display_value="End">097cef81979b6110e9cef97e6253afa9</to>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <to display_value="Update Comments">a52f9cf9979fe110e9cef97e6253af92</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">6d2f9cf9979fe110e9cef97e6253af9a</condition>
+        <from display_value="check asset return option">6d2f9cf9979fe110e9cef97e6253af99</from>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>692f9cf9979fe110e9cef97e6253af9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <to display_value="task for stockroom group">e12f5cf9979fe110e9cef97e6253afe7</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">6d2f9cf9979fe110e9cef97e6253af98</condition>
+        <from display_value="task for stockroom group">a12f9cf9979fe110e9cef97e6253af94</from>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>a92f9cf9979fe110e9cef97e6253af9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <to display_value="Update Comments">a52f9cf9979fe110e9cef97e6253af92</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">ed2f9cf9979fe110e9cef97e6253af9a</condition>
+        <from display_value="check asset return option">6d2f9cf9979fe110e9cef97e6253af99</from>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e52f9cf9979fe110e9cef97e6253af9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <to display_value="task for stockroom group">a12f9cf9979fe110e9cef97e6253af94</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">a92f5cf9979fe110e9cef97e6253afe6</condition>
+        <from display_value="Set Stage and State">a12f5cf9979fe110e9cef97e6253afe6</from>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e52f9cf9979fe110e9cef97e6253af9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <to display_value="End">e12f9cf9979fe110e9cef97e6253af8e</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Asset not checked -in">e92f9cf9979fe110e9cef97e6253af93</condition>
+        <from display_value="check if asset is checked-in">e12f9cf9979fe110e9cef97e6253af93</from>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>ed2f9cf9979fe110e9cef97e6253af9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <to display_value="check asset install status every 24 hrs">e92f9cf9979fe110e9cef97e6253af8e</to>
     </wf_transition>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-06 21:16:27</sys_created_on>
-        <sys_id>c17cef81979b6110e9cef97e6253afa4</sys_id>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-08 14:14:54</sys_created_on>
+        <sys_id>e12f5cf9979fe110e9cef97e6253afe4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:16:27</sys_updated_on>
-        <workflow_version display_value="Check-Out Asset">cd7cef81979b6110e9cef97e6253afa3</workflow_version>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-08 14:14:54</sys_updated_on>
+        <workflow_version display_value="SR - Asset Reservation - checkin">612f5cf9979fe110e9cef97e6253afe4</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=c17cef81979b6110e9cef97e6253afa3^sys_id!=cd7cef81979b6110e9cef97e6253afa3">
+    <wf_workflow_version action="update_multiple" query="workflow=c17cef81979b6110e9cef97e6253afa3^sys_id!=612f5cf9979fe110e9cef97e6253afe4">
         <published>false</published>
     </wf_workflow_version>
 </record_update>

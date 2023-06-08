@@ -21,7 +21,7 @@
         <depth/>
         <description/>
         <dimensions_unit/>
-        <dispatch_group display_value="WM Dispatchers" name="WM Dispatchers">17801ac21b13200050fdfbcd2c0713e8</dispatch_group>
+        <dispatch_group display_value="Qualifier-Dispatch Grp Victoria" name="Qualifier-Dispatch Grp Victoria">9193d741971b6110e9cef97e6253af95</dispatch_group>
         <display_name>Work Order Task  1</display_name>
         <energy_star>false</energy_star>
         <energy_use/>
@@ -55,10 +55,19 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>18e53de018e590c018e54b0018e5f2f0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>Vikas.Gupta</sys_updated_by>
-        <sys_updated_on>2023-06-06 19:36:58</sys_updated_on>
-        <task_description>Work Order Task  Template 1</task_description>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
+        <sys_updated_on>2023-06-08 01:52:35</sys_updated_on>
+        <task_description>Field Engineer will investigate the issue and try to source the required part from the nearest Stockroom. If a part needs to be sourced from another Stockroom or procured from manufacturer, click on Part requirement tab to request the same. In such a case, the Field Engineer can request a loaner laptop from the Reservation Management system on the Service Portal.
+
+Once the part and/or loaner is received, the Field Engineer can start travel.
+
+If applicable, Field Engineer will Check-out the Loaner laptop and hand it over to the end user along with the shipping label for return.
+The Work Order is paused at this time.
+
+After receiving the parts, Field Engineer will collect the requested part and goes to the end user again to finally fix the issue. 
+The Field Engineer will Check-in the loaner asset from the Reservation Management system on the Service Portal and deliver it to the Stockroom on his way. Once Loaner asset is received, the Stockroom manager will close the task.
+The Field Engineer can then proceed to close the Work Order.</task_description>
         <task_estimated_duration/>
         <task_skills/>
         <type>Generic</type>
@@ -71,7 +80,7 @@
         <weight_decimal/>
         <weight_unit/>
         <width/>
-        <work_type display_value="Planned Maintenance">076ebcbc3b0210103f09080044efc431</work_type>
+        <work_type display_value="Break Fix">38f719ec3b8a10103f09080044efc4cd</work_type>
     </cmdb_worktask_product_model>
     <fx_price action="delete_multiple" query="id=18e53de018e590c018e54b0018e5f2f0"/>
     <sys_translated_text action="delete_multiple" query="documentkey=18e53de018e590c018e54b0018e5f2f0"/>
@@ -81,14 +90,14 @@
         <sys_created_by>Vikas.Gupta</sys_created_by>
         <sys_created_on>2023-06-06 19:08:53</sys_created_on>
         <sys_id>644f4b0d97d76110e9cef97e6253af4b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Work Order Task  1</sys_name>
         <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
         <sys_policy/>
         <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
         <sys_update_name>sys_metadata_link_644f4b0d97d76110e9cef97e6253af4b</sys_update_name>
-        <sys_updated_by>Vikas.Gupta</sys_updated_by>
-        <sys_updated_on>2023-06-06 19:36:59</sys_updated_on>
+        <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
+        <sys_updated_on>2023-06-08 01:52:36</sys_updated_on>
         <tablename>cmdb_worktask_product_model</tablename>
     </sys_metadata_link>
 </record_update>

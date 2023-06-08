@@ -30,7 +30,12 @@
         <name>Create Work Order</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[current.update();
+        <script><![CDATA[/**
+     * @author NTTData
+     * @description creates new work order on wm_order table
+     */
+
+current.update();
 wmu = new global.WorkManagementInitiation();
 wmu.createWorkOrderFromIncident(current);]]></script>
         <show_insert>true</show_insert>
@@ -43,7 +48,7 @@ wmu.createWorkOrderFromIncident(current);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b10380a9971fa110e9cef97e6253af86</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Create Work Order</sys_name>
         <sys_overrides/>
         <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
@@ -51,7 +56,7 @@ wmu.createWorkOrderFromIncident(current);]]></script>
         <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
         <sys_update_name>sys_ui_action_b10380a9971fa110e9cef97e6253af86</sys_update_name>
         <sys_updated_by>Manoj.Mothy</sys_updated_by>
-        <sys_updated_on>2023-06-07 17:42:06</sys_updated_on>
+        <sys_updated_on>2023-06-08 14:22:59</sys_updated_on>
         <table>incident</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

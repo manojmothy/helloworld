@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">af439c2d975fa110e9cef97e6253afba</sp_column>
+        <sp_widget display_value="SC Scroll to top">9cfd91940b4103002600425663673a31</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-07 18:44:40</sys_created_on>
+        <sys_id>63439c2d975fa110e9cef97e6253afbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>sp_instance_63439c2d975fa110e9cef97e6253afbf</sys_update_name>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-07 18:44:40</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=63439c2d975fa110e9cef97e6253afbf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</application>
+        <file_path/>
+        <instance_id>7a35ee16db281b80439ef70fbf9619fa</instance_id>
+        <instance_name>dev51222</instance_name>
+        <name>sp_instance_63439c2d975fa110e9cef97e6253afbf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="1">af439c2d975fa110e9cef97e6253afba</sp_column><sp_widget display_value="SC Scroll to top">9cfd91940b4103002600425663673a31</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>Manoj.Mothy</sys_created_by><sys_created_on>2023-06-07 18:44:40</sys_created_on><sys_id>63439c2d975fa110e9cef97e6253afbf</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package><sys_policy/><sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope><sys_update_name>sp_instance_63439c2d975fa110e9cef97e6253afbf</sys_update_name><sys_updated_by>Manoj.Mothy</sys_updated_by><sys_updated_on>2023-06-07 18:44:40</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=63439c2d975fa110e9cef97e6253afbf"/></record_update>]]></payload>
+        <payload_hash>-1012109065</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>96b744ed971fa110e9cef97e6253af89</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-07 18:44:40</sys_created_on>
+        <sys_id>6f439c2d975fa110e9cef97e6253afc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188972ce1a10000001</sys_recorded_at>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-07 18:44:40</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>a7439c2dfd5fa110eee016681ef876c0</update_guid>
+        <update_guid_history>a7439c2dfd5fa110eee016681ef876c0:-1012109065</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">54c3546d975fa110e9cef97e6253af9a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-07 18:46:38</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>b64e2cad1f1b4e74976387334d9c49c4</sys_id>
+        <sys_metadata>63439c2d975fa110e9cef97e6253afbf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_scope_delete display_value="">e895e98e39c947c49d0799fdb82be490</sys_scope_delete>
+        <sys_update_name>sp_instance_63439c2d975fa110e9cef97e6253afbf</sys_update_name>
+        <sys_update_version display_value="sp_instance_63439c2d975fa110e9cef97e6253afbf">6f439c2d975fa110e9cef97e6253afc0</sys_update_version>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-07 18:46:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

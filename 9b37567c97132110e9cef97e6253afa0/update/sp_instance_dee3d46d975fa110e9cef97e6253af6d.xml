@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">afd3186d975fa110e9cef97e6253af67</sp_column>
+        <sp_widget display_value="My tickets - SWU">476190a9975fa110e9cef97e6253afad</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-07 18:47:19</sys_created_on>
+        <sys_id>dee3d46d975fa110e9cef97e6253af6d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>sp_instance_dee3d46d975fa110e9cef97e6253af6d</sys_update_name>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-07 19:31:49</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"tab_1": {
+		"value": "task",
+		"displayValue": "task"
+	},
+	"tab_1_filter": {
+		"value": "sys_class_name=incident^ORsys_class_name=sc_req_item^opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORref_sc_req_item.requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORref_incident.caller_idDYNAMIC90d1921e5f510100a9ad2572f2b477fe",
+		"displayValue": "sys_class_name=incident^ORsys_class_name=sc_req_item^opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORref_sc_req_item.requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORref_incident.caller_idDYNAMIC90d1921e5f510100a9ad2572f2b477fe"
+	},
+	"tab_2": {
+		"value": "wm_order",
+		"displayValue": "wm_order"
+	},
+	"tab_2_filter": {
+		"value": "callerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORopened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe",
+		"displayValue": "callerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORopened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe"
+	},
+	"tab_3": {
+		"value": "",
+		"displayValue": ""
+	},
+	"tab_3_filter": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=dee3d46d975fa110e9cef97e6253af6d"/>
+</record_update>

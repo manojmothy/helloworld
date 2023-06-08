@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <sp_column/>
+        <sp_container display_value="My dashboard - Container 3">a7439c2d975fa110e9cef97e6253af40</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-07 18:44:40</sys_created_on>
+        <sys_id>23439c2d975fa110e9cef97e6253afb9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>sp_row_23439c2d975fa110e9cef97e6253afb9</sys_update_name>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-07 18:46:33</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</application>
+        <file_path/>
+        <instance_id>7a35ee16db281b80439ef70fbf9619fa</instance_id>
+        <instance_name>dev51222</instance_name>
+        <name>sp_row_23439c2d975fa110e9cef97e6253afb9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>2</order><sp_column/><sp_container display_value="My dashboard - Container 3">a7439c2d975fa110e9cef97e6253af40</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>Manoj.Mothy</sys_created_by><sys_created_on>2023-06-07 18:44:40</sys_created_on><sys_id>23439c2d975fa110e9cef97e6253afb9</sys_id><sys_mod_count>1</sys_mod_count><sys_name>2</sys_name><sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package><sys_policy/><sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope><sys_update_name>sp_row_23439c2d975fa110e9cef97e6253afb9</sys_update_name><sys_updated_by>Manoj.Mothy</sys_updated_by><sys_updated_on>2023-06-07 18:46:33</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>-1512032721</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>96b744ed971fa110e9cef97e6253af89</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-07 18:46:33</sys_created_on>
+        <sys_id>8bb3d46d975fa110e9cef97e6253af36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188972e97e30000001</sys_recorded_at>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-07 18:46:33</sys_updated_on>
+        <type>Row</type>
+        <update_guid>c3b3d46d7f5fa110fd709be1a7dc1b36</update_guid>
+        <update_guid_history>c3b3d46d7f5fa110fd709be1a7dc1b36:-1512032721,63439c2d3e5fa1105da8a43df77612ba:599121591</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">1cc3d46d975fa110e9cef97e6253afa3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-07 18:46:38</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>3345d1d6305e45d1ba99d16474266dc9</sys_id>
+        <sys_metadata>23439c2d975fa110e9cef97e6253afb9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_scope_delete display_value="">e895e98e39c947c49d0799fdb82be490</sys_scope_delete>
+        <sys_update_name>sp_row_23439c2d975fa110e9cef97e6253afb9</sys_update_name>
+        <sys_update_version display_value="sp_row_23439c2d975fa110e9cef97e6253afb9">8bb3d46d975fa110e9cef97e6253af36</sys_update_version>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-07 18:46:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

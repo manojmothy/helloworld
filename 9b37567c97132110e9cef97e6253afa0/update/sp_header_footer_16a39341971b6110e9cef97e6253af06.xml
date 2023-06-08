@@ -361,14 +361,14 @@ data.loginWidget = $sp.getWidgetFromInstance('login-modal');]]></script>
         <sys_created_by>Manoj.Mothy</sys_created_by>
         <sys_created_on>2023-06-06 19:28:08</sys_created_on>
         <sys_id>16a39341971b6110e9cef97e6253af06</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Stock Header SWU</sys_name>
         <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
         <sys_policy/>
         <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
         <sys_update_name>sp_header_footer_16a39341971b6110e9cef97e6253af06</sys_update_name>
         <sys_updated_by>Manoj.Mothy</sys_updated_by>
-        <sys_updated_on>2023-06-06 21:52:24</sys_updated_on>
+        <sys_updated_on>2023-06-07 18:45:41</sys_updated_on>
         <template><![CDATA[<div>
   <nav class="navbar-inverse" ng-class="::{'navbar':!isViewNative, 'is-native': isViewNative}"
        role="navigation" aria-label="${Primary}">
@@ -405,6 +405,7 @@ data.loginWidget = $sp.getWidgetFromInstance('login-modal');]]></script>
             <li role="presentation"><a tabindex="-1" ng-href="?id=user_profile&sys_id={{::user.sys_id}}" role="menuitem">${Profile}</a></li>
               <li role="presentation"><a tabindex="-1" ng-href="?id=my_assets" role="menuitem">${My Assets}</a></li>
              <li role="presentation"><a tabindex="-1" ng-href="?id=my_workorders" role="menuitem">${My Work Orders}</a></li>
+             <li role="presentation"><a tabindex="-1" ng-href="?id=my_dashboard_swu" role="menuitem">${My Dashboard}</a></li>
             <li ng-if="::!(isViewNative || isViewNativeTablet)" role="presentation"><a tabindex="-1" href="{{::portal.logoutUrl}}" role="menuitem">${Logout}</a></li>
           </ul>
         </li>

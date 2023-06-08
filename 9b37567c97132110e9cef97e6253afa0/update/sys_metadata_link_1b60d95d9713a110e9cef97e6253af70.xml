@@ -55,17 +55,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2daebbb02dae4b302dae91402dae3aa0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
-        <sys_updated_on>2023-06-07 17:52:10</sys_updated_on>
+        <sys_updated_on>2023-06-07 21:17:42</sys_updated_on>
         <task_description>As a Field Engineer, perform the following tasks:
 - Troubleshoot issue
 - Assess if the issue can be fixed onsite. If Yes, fix and close this task
 - Cancel subsequent tasks with appropriate comments
 Else :
 - Check required Part/ Asset's availability in the nearest Stockroom
-- If Part/ Asset is available, go to the End user location , fix the issue and Close this task with comments; Request the asset in the next task.
-- If Part/ Asset is not available, Procure an Asset via Part Requirements tab below and Close this task. Subsequently, reserve a loaner asset in the next task.</task_description>
+- If Part/ Asset is available, go to the End user location , fix the issue and Close this task with comments.
+- If Part/ Asset is not available, transfer an Asset via Part Requirements tab below, Reserve and Check-in a Loaner device for the end user and Close this task.</task_description>
         <task_estimated_duration/>
         <task_skills/>
         <type>Generic</type>
@@ -88,14 +88,14 @@ Else :
         <sys_created_by>Madhuri.Annambhotla</sys_created_by>
         <sys_created_on>2023-06-07 04:33:14</sys_created_on>
         <sys_id>1b60d95d9713a110e9cef97e6253af70</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>1 Troubleshoot issue</sys_name>
         <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
         <sys_policy/>
         <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
         <sys_update_name>sys_metadata_link_1b60d95d9713a110e9cef97e6253af70</sys_update_name>
         <sys_updated_by>Madhuri.Annambhotla</sys_updated_by>
-        <sys_updated_on>2023-06-07 17:52:10</sys_updated_on>
+        <sys_updated_on>2023-06-07 21:17:43</sys_updated_on>
         <tablename>cmdb_worktask_product_model</tablename>
     </sys_metadata_link>
 </record_update>

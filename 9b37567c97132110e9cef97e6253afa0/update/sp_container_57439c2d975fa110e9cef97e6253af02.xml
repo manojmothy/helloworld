@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>visible-xs</class_name>
+        <container_class_name/>
+        <name>My dashboard - Container 3</name>
+        <order>3</order>
+        <sp_page display_value="my_dashboard_swu">db43982d975fa110e9cef97e6253afb1</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>Manoj.Mothy</sys_created_by>
+        <sys_created_on>2023-06-07 18:44:40</sys_created_on>
+        <sys_id>57439c2d975fa110e9cef97e6253af02</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>My dashboard - Container 3</sys_name>
+        <sys_package display_value="SWU Device Service" source="x_1070080_swu_dev">9b37567c97132110e9cef97e6253afa0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SWU Device Service">9b37567c97132110e9cef97e6253afa0</sys_scope>
+        <sys_update_name>sp_container_57439c2d975fa110e9cef97e6253af02</sys_update_name>
+        <sys_updated_by>Manoj.Mothy</sys_updated_by>
+        <sys_updated_on>2023-06-07 18:47:05</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>
